@@ -126,4 +126,4 @@ Select an object from the left sidebar to begin diffing. Changes to the project 
 Custom tooling
 ==============
 
-`./custom_tools` has a few scripts I threw together, `function_mapper.py` being the most relevant. mapping.json (I don't recommend opening it directly) and filtered_mapping.json contain likely matches for symbols in [the thousand year door decompilation project](https://github.com/doldecomp/ttyd)
+`./custom_tools` has a few scripts I threw together, `function_mapper.py` being the most relevant. mapping.json (I don't recommend opening it directly) and filtered_mapping.json contain likely matches for symbols in [the thousand year door decompilation project](https://github.com/doldecomp/ttyd), which has a fairly comprehensive mapping of the dolphin 2301 SDK
