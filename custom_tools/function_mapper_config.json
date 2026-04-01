@@ -1,0 +1,13 @@
+{
+    "source_symbols": "/home/vivian/decomp/ttyd-reference/config/G8MJ01/symbols.txt",
+    "source_binary": "/home/vivian/decomp/ttyd-reference/orig/G8MJ01/sys/main.dol",
+    "target_symbols": "../config/G4ME69/symbols.txt",
+    "target_binary": "../orig/G4ME69/sys/main.dol",
+    "output": "mapping.json",
+    "start_with": "",
+    "min_size": 2,
+    "max_instr": 5000,
+    "no_cache": false,
+    "size_tol": 0.3,
+    "jaccard_threshold": 0.0
+}

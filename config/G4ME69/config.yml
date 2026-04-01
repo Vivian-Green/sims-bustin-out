@@ -1,0 +1,46 @@
+name: "The Sims Bustin Out"
+object: sys/main.dol
+hash: 26f0bf319a5fd3ea3d3d86e6117fbc78e259231c
+object_base: orig/G4ME69
+symbols: config/G4ME69/symbols.txt
+splits: config/G4ME69/splits.txt
+
+# Change this to match the linker version.
+# See config.example.yml for a list.
+
+# 2301 seems to align with mw_comment_version 10? same SDK as ttyd
+mw_comment_version: 10
+
+quick_analysis: true      # Skips deep function analysis
+#detect_objects: false     # Don't look for data objects in code
+#detect_strings: false     # Don't scan for strings
+
+skip_cfa_ranges:
+  - start: .text:0x8010AC64
+    end: .text:0x8010AC9C
+  - start: .text:0x8010A444
+    end: .text:0x8010A474
+  - start: .text:0x8010B03C
+    end: .text:0x8010B314
+  - start: .text:0x80178200
+    end: .text:0x801782BC
+  - start: .text:0x8010D2B8
+    end: .text:0x8010D52C
+  - start: .text:0x80177EF0
+    end: .text:0x80177FE0
+  - start: .text:0x8018B960
+    end: .text:0x8018BB04
+  - start: .text:0x801A6ADC
+    end: .text:0x801A6E84
+  - start: .text:0x801B2094
+    end: .text:0x801B237C
+  - start: .text:0x801D4E84
+    end: .text:0x801D4F00
+  - start: .text:0x80109E00
+    end: .text:0x8010A500
+
+#modules:
+#- object: files/module.rel
+#  hash: 0000000000000000000000000000000000000000
+#  symbols: config/G4ME69/module/symbols.txt
+#  splits: config/G4ME69/module/splits.txt
