@@ -4,6 +4,7 @@ hash: 26f0bf319a5fd3ea3d3d86e6117fbc78e259231c
 object_base: orig/G4ME69
 symbols: config/G4ME69/symbols.txt
 splits: config/G4ME69/splits.txt
+source_output: src  
 
 # Change this to match the linker version.
 # See config.example.yml for a list.
@@ -11,6 +12,7 @@ splits: config/G4ME69/splits.txt
 # 2301 seems to align with mw_comment_version 10? same SDK as ttyd
 mw_comment_version: 10
 
+auto_split: false
 quick_analysis: true      # Skips deep function analysis
 #detect_objects: false     # Don't look for data objects in code
 #detect_strings: false     # Don't scan for strings

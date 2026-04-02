@@ -295,6 +295,16 @@ config.libs = [
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
         ],
     },
+    {
+        "lib": "game", # man idfk
+        "mw_version": config.linker_version,
+        "cflags": cflags_base,
+        "progress_category": "game",
+        "objects": [
+            Object(Matching, "init.c"),
+            Object(Matching, "code.c")
+        ],
+    },
 ]
 
 
