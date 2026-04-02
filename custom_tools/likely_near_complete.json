@@ -1,0 +1,2599 @@
+[
+  {
+    "file": "dvd/dvdfs.c",
+    "min_addr": 2148672164,
+    "max_end": 2148674280,
+    "covered_bytes": 1876,
+    "coverage_ratio": 0.8865784499054821,
+    "functions": [
+      {
+        "src": "entryToPath",
+        "tgt": "FUN_801226bc",
+        "addr": 2148673212,
+        "size": 352,
+        "score": 0.9840909090909091
+      },
+      {
+        "src": "__DVDFSInit",
+        "tgt": "FUN_801222a4",
+        "addr": 2148672164,
+        "size": 56,
+        "score": 0.6
+      },
+      {
+        "src": "DVDConvertPathToEntrynum",
+        "tgt": "FUN_801222dc",
+        "addr": 2148672220,
+        "size": 756,
+        "score": 0.9666666666666667
+      },
+      {
+        "src": "DVDOpen",
+        "tgt": "FUN_801225d0",
+        "addr": 2148672976,
+        "size": 200,
+        "score": 0.958
+      },
+      {
+        "src": "DVDClose",
+        "tgt": "FUN_80122698",
+        "addr": 2148673176,
+        "size": 36,
+        "score": 1.0
+      },
+      {
+        "src": "DVDGetCurrentDir",
+        "tgt": "FUN_8012281c",
+        "addr": 2148673564,
+        "size": 196,
+        "score": 0.9714285714285714
+      },
+      {
+        "src": "DVDReadPrio",
+        "tgt": "FUN_801229d0",
+        "addr": 2148674000,
+        "size": 280,
+        "score": 0.96
+      }
+    ],
+    "total_functions": 8,
+    "kept_functions": 7,
+    "outliers": [
+      {
+        "src": "cbForReadSync",
+        "tgt": "FUN_80124fc8",
+        "addr": 2148683720,
+        "size": 36,
+        "score": 0.9222222222222222
+      }
+    ]
+  },
+  {
+    "file": "base/PPCArch.c",
+    "min_addr": 2148630592,
+    "max_end": 2148630756,
+    "covered_bytes": 92,
+    "coverage_ratio": 0.5609756097560976,
+    "functions": [
+      {
+        "src": "PPCMfmsr",
+        "tgt": "FUN_80118040",
+        "addr": 2148630592,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtmsr",
+        "tgt": "FUN_80118048",
+        "addr": 2148630600,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMfhid0",
+        "tgt": "FUN_80118050",
+        "addr": 2148630608,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMthid0",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMfl2cr",
+        "tgt": "FUN_80118050",
+        "addr": 2148630608,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtl2cr",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtdec",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCSync",
+        "tgt": "FUN_80118078",
+        "addr": 2148630648,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCHalt",
+        "tgt": "FUN_80118080",
+        "addr": 2148630656,
+        "size": 20,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtmmcr0",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtmmcr1",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtpmc1",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtpmc2",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtpmc3",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtpmc4",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMffpscr",
+        "tgt": "FUN_801180c4",
+        "addr": 2148630724,
+        "size": 32,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMfhid2",
+        "tgt": "FUN_80118050",
+        "addr": 2148630608,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMthid2",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMtwpar",
+        "tgt": "FUN_80118058",
+        "addr": 2148630616,
+        "size": 8,
+        "score": 0.9
+      }
+    ],
+    "total_functions": 23,
+    "kept_functions": 19,
+    "outliers": [
+      {
+        "src": "PPCMtfpscr",
+        "tgt": "FUN_801180e4",
+        "addr": 2148630756,
+        "size": 40,
+        "score": 0.9
+      },
+      {
+        "src": "PPCMfwpar",
+        "tgt": "FUN_801197dc",
+        "addr": 2148636636,
+        "size": 16,
+        "score": 0.49749999999999994
+      },
+      {
+        "src": "PPCDisableSpeculation",
+        "tgt": "FUN_8011e2fc",
+        "addr": 2148655868,
+        "size": 32,
+        "score": 0.8322222222222222
+      },
+      {
+        "src": "PPCSetFpNonIEEEMode",
+        "tgt": "FUN_8011814c",
+        "addr": 2148630860,
+        "size": 8,
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "file": "db/db.c",
+    "min_addr": 2148671636,
+    "max_end": 2148671872,
+    "covered_bytes": 236,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "DBInit",
+        "tgt": "FUN_80122094",
+        "addr": 2148671636,
+        "size": 40,
+        "score": 0.69
+      },
+      {
+        "src": "__DBExceptionDestinationAux",
+        "tgt": "FUN_801220bc",
+        "addr": 2148671676,
+        "size": 88,
+        "score": 0.8586363636363635
+      },
+      {
+        "src": "__DBIsExceptionMarked",
+        "tgt": "FUN_80122114",
+        "addr": 2148671764,
+        "size": 28,
+        "score": 0.8
+      },
+      {
+        "src": "DBPrintf",
+        "tgt": "FUN_80122130",
+        "addr": 2148671792,
+        "size": 80,
+        "score": 0.9
+      }
+    ],
+    "total_functions": 5,
+    "kept_functions": 4,
+    "outliers": [
+      {
+        "src": "__DBExceptionDestination",
+        "tgt": "FUN_8011ac5c",
+        "addr": 2148641884,
+        "size": 20,
+        "score": 0.5816666666666667
+      }
+    ]
+  },
+  {
+    "file": "os/OSAlarm.c",
+    "min_addr": 2148633664,
+    "max_end": 2148635388,
+    "covered_bytes": 1724,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "OSInitAlarm",
+        "tgt": "FUN_80118c40",
+        "addr": 2148633664,
+        "size": 88,
+        "score": 0.8727272727272728
+      },
+      {
+        "src": "OSCreateAlarm",
+        "tgt": "FUN_80118c98",
+        "addr": 2148633752,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "InsertAlarm",
+        "tgt": "FUN_80118ca8",
+        "addr": 2148633768,
+        "size": 592,
+        "score": 0.9810810810810812
+      },
+      {
+        "src": "OSSetAlarm",
+        "tgt": "FUN_80118ef8",
+        "addr": 2148634360,
+        "size": 104,
+        "score": 1.0
+      },
+      {
+        "src": "OSCancelAlarm",
+        "tgt": "FUN_80118f60",
+        "addr": 2148634464,
+        "size": 284,
+        "score": 0.9802816901408451
+      },
+      {
+        "src": "DecrementerExceptionCallback",
+        "tgt": "FUN_8011907c",
+        "addr": 2148634748,
+        "size": 640,
+        "score": 0.9096666666666665
+      }
+    ],
+    "total_functions": 7,
+    "kept_functions": 6,
+    "outliers": [
+      {
+        "src": "DecrementerExceptionHandler",
+        "tgt": "FUN_8022fef4",
+        "addr": 2149777140,
+        "size": 60,
+        "score": 0.4175
+      }
+    ]
+  },
+  {
+    "file": "card/CARDBios.c",
+    "min_addr": 2150110856,
+    "max_end": 2150115408,
+    "covered_bytes": 4552,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__CARDSyncCallback",
+        "tgt": "FUN_80281688",
+        "addr": 2150110856,
+        "size": 52,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDExtHandler",
+        "tgt": "FUN_802816bc",
+        "addr": 2150110908,
+        "size": 216,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDExiHandler",
+        "tgt": "FUN_80281794",
+        "addr": 2150111124,
+        "size": 280,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDTxHandler",
+        "tgt": "FUN_802818ac",
+        "addr": 2150111404,
+        "size": 168,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDUnlockedHandler",
+        "tgt": "FUN_80281954",
+        "addr": 2150111572,
+        "size": 132,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDEnableInterrupt",
+        "tgt": "FUN_802819d8",
+        "addr": 2150111704,
+        "size": 192,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDReadStatus",
+        "tgt": "FUN_80281a98",
+        "addr": 2150111896,
+        "size": 240,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDReadVendorID",
+        "tgt": "FUN_80281a98",
+        "addr": 2150111896,
+        "size": 240,
+        "score": 0.9883333333333333
+      },
+      {
+        "src": "__CARDClearStatus",
+        "tgt": "FUN_80281b88",
+        "addr": 2150112136,
+        "size": 172,
+        "score": 1.0
+      },
+      {
+        "src": "TimeoutHandler",
+        "tgt": "FUN_80281c34",
+        "addr": 2150112308,
+        "size": 164,
+        "score": 1.0
+      },
+      {
+        "src": "Retry",
+        "tgt": "FUN_80281cd8",
+        "addr": 2150112472,
+        "size": 556,
+        "score": 0.888909798447066
+      },
+      {
+        "src": "UnlockedCallback",
+        "tgt": "FUN_80281f04",
+        "addr": 2150113028,
+        "size": 272,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDStart",
+        "tgt": "FUN_80282014",
+        "addr": 2150113300,
+        "size": 436,
+        "score": 0.8683381797321623
+      },
+      {
+        "src": "__CARDReadSegment",
+        "tgt": "FUN_802821c8",
+        "addr": 2150113736,
+        "size": 308,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDWritePage",
+        "tgt": "FUN_802822fc",
+        "addr": 2150114044,
+        "size": 284,
+        "score": 0.8607144866385372
+      },
+      {
+        "src": "__CARDEraseSector",
+        "tgt": "FUN_80282418",
+        "addr": 2150114328,
+        "size": 224,
+        "score": 0.8743833017077798
+      },
+      {
+        "src": "CARDInit",
+        "tgt": "FUN_802824f8",
+        "addr": 2150114552,
+        "size": 172,
+        "score": 0.9674418604651163
+      },
+      {
+        "src": "__CARDGetFontEncode",
+        "tgt": "FUN_802825a4",
+        "addr": 2150114724,
+        "size": 8,
+        "score": 0.55
+      },
+      {
+        "src": "__CARDSetDiskID",
+        "tgt": "FUN_802825ac",
+        "addr": 2150114732,
+        "size": 56,
+        "score": 0.9
+      },
+      {
+        "src": "__CARDGetControlBlock",
+        "tgt": "FUN_802825e4",
+        "addr": 2150114788,
+        "size": 184,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDPutControlBlock",
+        "tgt": "FUN_8028269c",
+        "addr": 2150114972,
+        "size": 100,
+        "score": 1.0
+      },
+      {
+        "src": "CARDGetResultCode",
+        "tgt": "FUN_80281688",
+        "addr": 2150110856,
+        "size": 52,
+        "score": 0.3735222672064777
+      },
+      {
+        "src": "CARDFreeBlocks",
+        "tgt": "FUN_80282700",
+        "addr": 2150115072,
+        "size": 336,
+        "score": 1.0
+      }
+    ],
+    "total_functions": 28,
+    "kept_functions": 23,
+    "outliers": [
+      {
+        "src": "OnReset",
+        "tgt": "FUN_802828e8",
+        "addr": 2150115560,
+        "size": 80,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDDefaultApiCallback",
+        "tgt": "FUN_800411a0",
+        "addr": 2147750304,
+        "size": 4,
+        "score": 0.9
+      },
+      {
+        "src": "__CARDSync",
+        "tgt": "FUN_80282850",
+        "addr": 2150115408,
+        "size": 152,
+        "score": 1.0
+      },
+      {
+        "src": "CARDSetFastMode",
+        "tgt": "FUN_8025d244",
+        "addr": 2149962308,
+        "size": 40,
+        "score": 0.4084343645484949
+      },
+      {
+        "src": "CARDGetFastMode",
+        "tgt": "FUN_80290b20",
+        "addr": 2150173472,
+        "size": 40,
+        "score": 0.509264705882353
+      }
+    ]
+  },
+  {
+    "file": "os/OSArena.c",
+    "min_addr": 2147903080,
+    "max_end": 2147903096,
+    "covered_bytes": 16,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "OSGetArenaHi",
+        "tgt": "FUN_80066670",
+        "addr": 2147903088,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "OSGetArenaLo",
+        "tgt": "FUN_80066670",
+        "addr": 2147903088,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "OSSetArenaHi",
+        "tgt": "FUN_80066668",
+        "addr": 2147903080,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "OSSetArenaLo",
+        "tgt": "FUN_80066668",
+        "addr": 2147903080,
+        "size": 8,
+        "score": 0.9
+      }
+    ],
+    "total_functions": 5,
+    "kept_functions": 4,
+    "outliers": [
+      {
+        "src": "OSAllocFromArenaLo",
+        "tgt": "FUN_801193c4",
+        "addr": 2148635588,
+        "size": 44,
+        "score": 0.7727272727272728
+      }
+    ]
+  },
+  {
+    "file": "os/OSContext.c",
+    "min_addr": 2148637948,
+    "max_end": 2148640084,
+    "covered_bytes": 2088,
+    "coverage_ratio": 0.9775280898876404,
+    "functions": [
+      {
+        "src": "__OSLoadFPUContext",
+        "tgt": "FUN_80119cfc",
+        "addr": 2148637948,
+        "size": 292,
+        "score": 0.9
+      },
+      {
+        "src": "__OSSaveFPUContext",
+        "tgt": "FUN_80119e20",
+        "addr": 2148638240,
+        "size": 296,
+        "score": 0.9
+      },
+      {
+        "src": "OSSaveFPUContext",
+        "tgt": "FUN_80119f48",
+        "addr": 2148638536,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "OSSetCurrentContext",
+        "tgt": "FUN_80119f50",
+        "addr": 2148638544,
+        "size": 92,
+        "score": 0.9
+      },
+      {
+        "src": "OSGetCurrentContext",
+        "tgt": "FUN_80119fac",
+        "addr": 2148638636,
+        "size": 12,
+        "score": 0.9
+      },
+      {
+        "src": "OSSaveContext",
+        "tgt": "FUN_80119fb8",
+        "addr": 2148638648,
+        "size": 128,
+        "score": 0.9
+      },
+      {
+        "src": "OSLoadContext",
+        "tgt": "FUN_8011a038",
+        "addr": 2148638776,
+        "size": 216,
+        "score": 0.8740740740740741
+      },
+      {
+        "src": "OSGetStackPointer",
+        "tgt": "FUN_8011a110",
+        "addr": 2148638992,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "OSClearContext",
+        "tgt": "FUN_8011a148",
+        "addr": 2148639048,
+        "size": 36,
+        "score": 0.9
+      },
+      {
+        "src": "OSInitContext",
+        "tgt": "FUN_8011a16c",
+        "addr": 2148639084,
+        "size": 188,
+        "score": 0.9
+      },
+      {
+        "src": "OSDumpContext",
+        "tgt": "FUN_8011a228",
+        "addr": 2148639272,
+        "size": 812,
+        "score": 0.8927131295255545
+      },
+      {
+        "src": "OSFillFPUContext",
+        "tgt": "FUN_80119e20",
+        "addr": 2148638240,
+        "size": 296,
+        "score": 0.7945232383808095
+      }
+    ],
+    "total_functions": 14,
+    "kept_functions": 12,
+    "outliers": [
+      {
+        "src": "OSSwitchFPUContext",
+        "tgt": "FUN_800fc6fc",
+        "addr": 2148517628,
+        "size": 100,
+        "score": 0.3902265501678562
+      },
+      {
+        "src": "__OSContextInit",
+        "tgt": "FUN_8011a554",
+        "addr": 2148640084,
+        "size": 72,
+        "score": 0.9222222222222222
+      }
+    ]
+  },
+  {
+    "file": "os/OSInterrupt.c",
+    "min_addr": 2148641864,
+    "max_end": 2148643104,
+    "covered_bytes": 1240,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "OSDisableInterrupts",
+        "tgt": "FUN_8011ac48",
+        "addr": 2148641864,
+        "size": 20,
+        "score": 0.9
+      },
+      {
+        "src": "OSEnableInterrupts",
+        "tgt": "FUN_8011ac5c",
+        "addr": 2148641884,
+        "size": 20,
+        "score": 0.9
+      },
+      {
+        "src": "OSRestoreInterrupts",
+        "tgt": "FUN_8011ac70",
+        "addr": 2148641904,
+        "size": 36,
+        "score": 0.9
+      },
+      {
+        "src": "__OSSetInterruptHandler",
+        "tgt": "FUN_8011ac94",
+        "addr": 2148641940,
+        "size": 28,
+        "score": 0.8
+      },
+      {
+        "src": "__OSGetInterruptHandler",
+        "tgt": "FUN_8011acb0",
+        "addr": 2148641968,
+        "size": 20,
+        "score": 0.76
+      },
+      {
+        "src": "__OSInterruptInit",
+        "tgt": "FUN_8011acc4",
+        "addr": 2148641988,
+        "size": 116,
+        "score": 0.9275862068965517
+      },
+      {
+        "src": "SetInterruptMask",
+        "tgt": "FUN_8011ad38",
+        "addr": 2148642104,
+        "size": 728,
+        "score": 0.9
+      },
+      {
+        "src": "__OSMaskInterrupts",
+        "tgt": "FUN_8011b010",
+        "addr": 2148642832,
+        "size": 136,
+        "score": 1.0
+      },
+      {
+        "src": "__OSUnmaskInterrupts",
+        "tgt": "FUN_8011b098",
+        "addr": 2148642968,
+        "size": 136,
+        "score": 1.0
+      }
+    ],
+    "total_functions": 11,
+    "kept_functions": 9,
+    "outliers": [
+      {
+        "src": "__OSDispatchInterrupt",
+        "tgt": "FUN_8011b120",
+        "addr": 2148643104,
+        "size": 916,
+        "score": 0.9249985045163606
+      },
+      {
+        "src": "ExternalInterruptHandler",
+        "tgt": "FUN_8022fef4",
+        "addr": 2149777140,
+        "size": 60,
+        "score": 0.4175
+      }
+    ]
+  },
+  {
+    "file": "os/OSReset.c",
+    "min_addr": 2148644772,
+    "max_end": 2148647100,
+    "covered_bytes": 1196,
+    "coverage_ratio": 0.5137457044673539,
+    "functions": [
+      {
+        "src": "OSRegisterResetFunction",
+        "tgt": "FUN_8011b7a4",
+        "addr": 2148644772,
+        "size": 132,
+        "score": 0.8151515151515152
+      },
+      {
+        "src": "__OSCallResetFunctions",
+        "tgt": "FUN_8011b828",
+        "addr": 2148644904,
+        "size": 152,
+        "score": 0.8279653679653678
+      },
+      {
+        "src": "KillThreads",
+        "tgt": "FUN_8011c05c",
+        "addr": 2148647004,
+        "size": 96,
+        "score": 0.5464395604395604
+      },
+      {
+        "src": "__OSDoHotReset",
+        "tgt": "FUN_8011b92c",
+        "addr": 2148645164,
+        "size": 72,
+        "score": 1.0
+      },
+      {
+        "src": "OSResetSystem",
+        "tgt": "FUN_8011b974",
+        "addr": 2148645236,
+        "size": 696,
+        "score": 0.5619906405852397
+      },
+      {
+        "src": "OSGetResetCode",
+        "tgt": "FUN_8011bc2c",
+        "addr": 2148645932,
+        "size": 48,
+        "score": 0.6068842921784098
+      }
+    ],
+    "total_functions": 7,
+    "kept_functions": 6,
+    "outliers": [
+      {
+        "src": "Reset",
+        "tgt": "FUN_8010ce34",
+        "addr": 2148585012,
+        "size": 116,
+        "score": 0.22013407903996443
+      }
+    ]
+  },
+  {
+    "file": "os/OSThread.c",
+    "min_addr": 2148650060,
+    "max_end": 2148653948,
+    "covered_bytes": 3888,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__OSThreadInit",
+        "tgt": "FUN_8011cc4c",
+        "addr": 2148650060,
+        "size": 344,
+        "score": 0.9511627906976744
+      },
+      {
+        "src": "OSInitThreadQueue",
+        "tgt": "FUN_8011cda4",
+        "addr": 2148650404,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "OSGetCurrentThread",
+        "tgt": "FUN_8011cdb4",
+        "addr": 2148650420,
+        "size": 12,
+        "score": 0.9
+      },
+      {
+        "src": "OSDisableScheduler",
+        "tgt": "FUN_8011cdc0",
+        "addr": 2148650432,
+        "size": 64,
+        "score": 0.9125
+      },
+      {
+        "src": "OSEnableScheduler",
+        "tgt": "FUN_8011ce00",
+        "addr": 2148650496,
+        "size": 64,
+        "score": 0.9125
+      },
+      {
+        "src": "UnsetRun",
+        "tgt": "FUN_8011ce40",
+        "addr": 2148650560,
+        "size": 104,
+        "score": 0.8461538461538463
+      },
+      {
+        "src": "__OSGetEffectivePriority",
+        "tgt": "FUN_8011cea8",
+        "addr": 2148650664,
+        "size": 60,
+        "score": 0.9
+      },
+      {
+        "src": "SetEffectivePriority",
+        "tgt": "FUN_8011cee4",
+        "addr": 2148650724,
+        "size": 448,
+        "score": 0.975
+      },
+      {
+        "src": "SelectThread",
+        "tgt": "FUN_8011d0a4",
+        "addr": 2148651172,
+        "size": 552,
+        "score": 0.9289855072463769
+      },
+      {
+        "src": "__OSReschedule",
+        "tgt": "FUN_8011d2cc",
+        "addr": 2148651724,
+        "size": 48,
+        "score": 0.9416666666666667
+      },
+      {
+        "src": "OSYieldThread",
+        "tgt": "FUN_8011cdc0",
+        "addr": 2148650432,
+        "size": 64,
+        "score": 0.7638104838709676
+      },
+      {
+        "src": "OSCreateThread",
+        "tgt": "FUN_8011d2fc",
+        "addr": 2148651772,
+        "size": 488,
+        "score": 0.9885245901639345
+      },
+      {
+        "src": "OSExitThread",
+        "tgt": "FUN_8011d4e4",
+        "addr": 2148652260,
+        "size": 228,
+        "score": 0.9754385964912281
+      },
+      {
+        "src": "OSCancelThread",
+        "tgt": "FUN_8011d5c8",
+        "addr": 2148652488,
+        "size": 444,
+        "score": 0.9873873873873874
+      },
+      {
+        "src": "OSResumeThread",
+        "tgt": "FUN_8011d784",
+        "addr": 2148652932,
+        "size": 648,
+        "score": 0.9827160493827161
+      },
+      {
+        "src": "OSSuspendThread",
+        "tgt": "FUN_8011da0c",
+        "addr": 2148653580,
+        "size": 368,
+        "score": 0.9847826086956522
+      }
+    ],
+    "total_functions": 20,
+    "kept_functions": 16,
+    "outliers": [
+      {
+        "src": "DefaultSwitchThreadCallback",
+        "tgt": "FUN_800411a0",
+        "addr": 2147750304,
+        "size": 4,
+        "score": 0.9
+      },
+      {
+        "src": "OSSleepThread",
+        "tgt": "FUN_8011db7c",
+        "addr": 2148653948,
+        "size": 236,
+        "score": 0.976271186440678
+      },
+      {
+        "src": "OSWakeupThread",
+        "tgt": "FUN_8011dc68",
+        "addr": 2148654184,
+        "size": 260,
+        "score": 0.9569230769230769
+      },
+      {
+        "src": "OSClearStack",
+        "tgt": "FUN_8011de2c",
+        "addr": 2148654636,
+        "size": 172,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "dvd/dvdlow.c",
+    "min_addr": 2148687320,
+    "max_end": 2148690096,
+    "covered_bytes": 2588,
+    "coverage_ratio": 0.9322766570605188,
+    "functions": [
+      {
+        "src": "AlarmHandlerForTimeout",
+        "tgt": "FUN_80125dd8",
+        "addr": 2148687320,
+        "size": 112,
+        "score": 0.9500000000000001
+      },
+      {
+        "src": "Read",
+        "tgt": "FUN_80125e48",
+        "addr": 2148687432,
+        "size": 272,
+        "score": 0.9176470588235294
+      },
+      {
+        "src": "SeekTwiceBeforeRead",
+        "tgt": "FUN_80125f58",
+        "addr": 2148687704,
+        "size": 128,
+        "score": 0.95625
+      },
+      {
+        "src": "DVDLowRead",
+        "tgt": "FUN_80125fd8",
+        "addr": 2148687832,
+        "size": 664,
+        "score": 0.9578313253012049
+      },
+      {
+        "src": "DVDLowSeek",
+        "tgt": "FUN_80126270",
+        "addr": 2148688496,
+        "size": 148,
+        "score": 0.9432432432432433
+      },
+      {
+        "src": "DVDLowWaitCoverClose",
+        "tgt": "FUN_80126304",
+        "addr": 2148688644,
+        "size": 44,
+        "score": 0.7090909090909091
+      },
+      {
+        "src": "DVDLowReadDiskID",
+        "tgt": "FUN_80126330",
+        "addr": 2148688688,
+        "size": 164,
+        "score": 0.9487804878048781
+      },
+      {
+        "src": "DVDLowStopMotor",
+        "tgt": "FUN_801263d4",
+        "addr": 2148688852,
+        "size": 140,
+        "score": 0.94
+      },
+      {
+        "src": "DVDLowRequestError",
+        "tgt": "FUN_801263d4",
+        "addr": 2148688852,
+        "size": 140,
+        "score": 0.94
+      },
+      {
+        "src": "DVDLowInquiry",
+        "tgt": "FUN_801264ec",
+        "addr": 2148689132,
+        "size": 156,
+        "score": 0.9461538461538462
+      },
+      {
+        "src": "DVDLowAudioStream",
+        "tgt": "FUN_80126588",
+        "addr": 2148689288,
+        "size": 152,
+        "score": 0.9447368421052631
+      },
+      {
+        "src": "DVDLowRequestAudioStatus",
+        "tgt": "FUN_80126620",
+        "addr": 2148689440,
+        "size": 140,
+        "score": 0.94
+      },
+      {
+        "src": "DVDLowAudioBufferConfig",
+        "tgt": "FUN_801266ac",
+        "addr": 2148689580,
+        "size": 156,
+        "score": 0.9461538461538462
+      },
+      {
+        "src": "DVDLowReset",
+        "tgt": "FUN_80126748",
+        "addr": 2148689736,
+        "size": 188,
+        "score": 0.9553191489361702
+      },
+      {
+        "src": "__DVDLowSetWAType",
+        "tgt": "FUN_80126834",
+        "addr": 2148689972,
+        "size": 68,
+        "score": 0.9176470588235294
+      },
+      {
+        "src": "__DVDLowTestAlarm",
+        "tgt": "FUN_80126878",
+        "addr": 2148690040,
+        "size": 56,
+        "score": 0.9
+      }
+    ],
+    "total_functions": 20,
+    "kept_functions": 16,
+    "outliers": [
+      {
+        "src": "__DVDInitWA",
+        "tgt": "FUN_80125a34",
+        "addr": 2148686388,
+        "size": 64,
+        "score": 0.95625
+      },
+      {
+        "src": "__DVDInterruptHandler",
+        "tgt": "FUN_80125a74",
+        "addr": 2148686452,
+        "size": 736,
+        "score": 0.904891304347826
+      },
+      {
+        "src": "DVDLowBreak",
+        "tgt": "FUN_80156954",
+        "addr": 2148886868,
+        "size": 16,
+        "score": 0.6266666666666667
+      },
+      {
+        "src": "DVDLowClearCallback",
+        "tgt": "FUN_800e4280",
+        "addr": 2148418176,
+        "size": 20,
+        "score": 0.7261904761904762
+      }
+    ]
+  },
+  {
+    "file": "dvd/dvd.c",
+    "min_addr": 2148674320,
+    "max_end": 2148683720,
+    "covered_bytes": 8956,
+    "coverage_ratio": 0.9527659574468085,
+    "functions": [
+      {
+        "src": "DVDInit",
+        "tgt": "FUN_80122b10",
+        "addr": 2148674320,
+        "size": 204,
+        "score": 0.822222222222222
+      },
+      {
+        "src": "stateReadingFST",
+        "tgt": "FUN_80122bdc",
+        "addr": 2148674524,
+        "size": 148,
+        "score": 0.8864864864864865
+      },
+      {
+        "src": "cbForStateReadingFST",
+        "tgt": "FUN_80122c70",
+        "addr": 2148674672,
+        "size": 140,
+        "score": 0.8888272921108741
+      },
+      {
+        "src": "cbForStateError",
+        "tgt": "FUN_80122cfc",
+        "addr": 2148674812,
+        "size": 172,
+        "score": 0.8534883720930232
+      },
+      {
+        "src": "stateTimeout",
+        "tgt": "FUN_80122da8",
+        "addr": 2148674984,
+        "size": 52,
+        "score": 1.0
+      },
+      {
+        "src": "stateGettingError",
+        "tgt": "FUN_80122ddc",
+        "addr": 2148675036,
+        "size": 40,
+        "score": 0.93
+      },
+      {
+        "src": "CategorizeError",
+        "tgt": "FUN_80122e04",
+        "addr": 2148675076,
+        "size": 180,
+        "score": 0.76
+      },
+      {
+        "src": "cbForStateGettingError",
+        "tgt": "FUN_80122eb8",
+        "addr": 2148675256,
+        "size": 660,
+        "score": 0.8824551723187777
+      },
+      {
+        "src": "cbForUnrecoveredError",
+        "tgt": "FUN_8012314c",
+        "addr": 2148675916,
+        "size": 104,
+        "score": 0.9054945054945054
+      },
+      {
+        "src": "cbForUnrecoveredErrorRetry",
+        "tgt": "FUN_801231b4",
+        "addr": 2148676020,
+        "size": 152,
+        "score": 0.8684210526315789
+      },
+      {
+        "src": "stateGoToRetry",
+        "tgt": "FUN_80122ddc",
+        "addr": 2148675036,
+        "size": 40,
+        "score": 0.93
+      },
+      {
+        "src": "cbForStateGoToRetry",
+        "tgt": "FUN_80123274",
+        "addr": 2148676212,
+        "size": 344,
+        "score": 0.8426730176520033
+      },
+      {
+        "src": "stateCheckID",
+        "tgt": "FUN_801233cc",
+        "addr": 2148676556,
+        "size": 224,
+        "score": 0.8375
+      },
+      {
+        "src": "stateCheckID3",
+        "tgt": "FUN_801234ac",
+        "addr": 2148676780,
+        "size": 52,
+        "score": 0.8923076923076924
+      },
+      {
+        "src": "stateCheckID2a",
+        "tgt": "FUN_801234ac",
+        "addr": 2148676780,
+        "size": 52,
+        "score": 0.8923076923076924
+      },
+      {
+        "src": "cbForStateCheckID2a",
+        "tgt": "FUN_8012314c",
+        "addr": 2148675916,
+        "size": 104,
+        "score": 0.8923076923076924
+      },
+      {
+        "src": "stateCheckID2",
+        "tgt": "FUN_80123588",
+        "addr": 2148677000,
+        "size": 56,
+        "score": 0.9500000000000001
+      },
+      {
+        "src": "cbForStateCheckID1",
+        "tgt": "FUN_801235c0",
+        "addr": 2148677056,
+        "size": 276,
+        "score": 0.8553359683794466
+      },
+      {
+        "src": "cbForStateCheckID2",
+        "tgt": "FUN_801236d4",
+        "addr": 2148677332,
+        "size": 228,
+        "score": 0.8696538643907065
+      },
+      {
+        "src": "cbForStateCheckID3",
+        "tgt": "FUN_801237b8",
+        "addr": 2148677560,
+        "size": 252,
+        "score": 0.8595818815331009
+      },
+      {
+        "src": "stateCoverClosed",
+        "tgt": "FUN_801238f8",
+        "addr": 2148677880,
+        "size": 204,
+        "score": 0.925145137880987
+      },
+      {
+        "src": "stateCoverClosed_CMD",
+        "tgt": "FUN_801239c4",
+        "addr": 2148678084,
+        "size": 48,
+        "score": 0.9416666666666667
+      },
+      {
+        "src": "cbForStateCoverClosed",
+        "tgt": "FUN_8012314c",
+        "addr": 2148675916,
+        "size": 104,
+        "score": 0.8962292609351433
+      },
+      {
+        "src": "stateMotorStopped",
+        "tgt": "FUN_80122ddc",
+        "addr": 2148675036,
+        "size": 40,
+        "score": 0.93
+      },
+      {
+        "src": "cbForStateMotorStopped",
+        "tgt": "FUN_80123a8c",
+        "addr": 2148678284,
+        "size": 228,
+        "score": 0.9208065458796024
+      },
+      {
+        "src": "stateReady",
+        "tgt": "FUN_80123b70",
+        "addr": 2148678512,
+        "size": 560,
+        "score": 0.7137923970821571
+      },
+      {
+        "src": "stateBusy",
+        "tgt": "FUN_80123da0",
+        "addr": 2148679072,
+        "size": 800,
+        "score": 0.7256410256410256
+      },
+      {
+        "src": "cbForStateBusy",
+        "tgt": "FUN_801240c0",
+        "addr": 2148679872,
+        "size": 1592,
+        "score": 0.585520662199428
+      },
+      {
+        "src": "issueCommand",
+        "tgt": "FUN_80124978",
+        "addr": 2148682104,
+        "size": 188,
+        "score": 0.8777446808510638
+      },
+      {
+        "src": "DVDReadAbsAsyncPrio",
+        "tgt": "FUN_801246f8",
+        "addr": 2148681464,
+        "size": 220,
+        "score": 0.9618181818181818
+      },
+      {
+        "src": "DVDReadAbsAsyncForBS",
+        "tgt": "FUN_801247d4",
+        "addr": 2148681684,
+        "size": 208,
+        "score": 0.9596153846153846
+      },
+      {
+        "src": "DVDReadDiskID",
+        "tgt": "FUN_801248a4",
+        "addr": 2148681892,
+        "size": 212,
+        "score": 0.960377358490566
+      },
+      {
+        "src": "DVDCancelStreamAsync",
+        "tgt": "FUN_80124978",
+        "addr": 2148682104,
+        "size": 188,
+        "score": 0.9553191489361702
+      },
+      {
+        "src": "DVDCancelStream",
+        "tgt": "FUN_80124f1c",
+        "addr": 2148683548,
+        "size": 172,
+        "score": 0.7450432544130008
+      },
+      {
+        "src": "DVDInquiryAsync",
+        "tgt": "FUN_80124a34",
+        "addr": 2148682292,
+        "size": 208,
+        "score": 0.9596153846153846
+      },
+      {
+        "src": "DVDReset",
+        "tgt": "FUN_80124b04",
+        "addr": 2148682500,
+        "size": 68,
+        "score": 0.9176470588235294
+      },
+      {
+        "src": "DVDGetCommandBlockStatus",
+        "tgt": "FUN_80124b48",
+        "addr": 2148682568,
+        "size": 76,
+        "score": 1.0
+      },
+      {
+        "src": "DVDGetDriveStatus",
+        "tgt": "FUN_80124b94",
+        "addr": 2148682644,
+        "size": 172,
+        "score": 0.9511627906976744
+      },
+      {
+        "src": "DVDResume",
+        "tgt": "FUN_80124c50",
+        "addr": 2148682832,
+        "size": 80,
+        "score": 0.895
+      },
+      {
+        "src": "DVDCancelAsync",
+        "tgt": "FUN_80124ca0",
+        "addr": 2148682912,
+        "size": 636,
+        "score": 0.9383647798742139
+      }
+    ],
+    "total_functions": 49,
+    "kept_functions": 40,
+    "outliers": [
+      {
+        "src": "defaultOptionalCommandChecker",
+        "tgt": "FUN_800411a0",
+        "addr": 2147750304,
+        "size": 4,
+        "score": 0.9
+      },
+      {
+        "src": "cbForCancelStreamSync",
+        "tgt": "FUN_80124fc8",
+        "addr": 2148683720,
+        "size": 36,
+        "score": 0.8694736842105263
+      },
+      {
+        "src": "DVDSetAutoInvalidation",
+        "tgt": "FUN_801082bc",
+        "addr": 2148565692,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "DVDCancel",
+        "tgt": "FUN_80124f1c",
+        "addr": 2148683548,
+        "size": 172,
+        "score": 0.9674418604651163
+      },
+      {
+        "src": "cbForCancelSync",
+        "tgt": "FUN_80124fc8",
+        "addr": 2148683720,
+        "size": 36,
+        "score": 0.9222222222222222
+      },
+      {
+        "src": "DVDGetCurrentDiskID",
+        "tgt": "FUN_80124fec",
+        "addr": 2148683756,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "DVDCheckDisk",
+        "tgt": "FUN_80124ff4",
+        "addr": 2148683764,
+        "size": 248,
+        "score": 0.9435483870967741
+      },
+      {
+        "src": "__DVDPrepareResetAsync",
+        "tgt": "FUN_801250ec",
+        "addr": 2148684012,
+        "size": 284,
+        "score": 0.9014084507042254
+      },
+      {
+        "src": "__DVDTestAlarm",
+        "tgt": "FUN_80125208",
+        "addr": 2148684296,
+        "size": 56,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "vi/vi.c",
+    "min_addr": 2148690096,
+    "max_end": 2148698080,
+    "covered_bytes": 6992,
+    "coverage_ratio": 0.875751503006012,
+    "functions": [
+      {
+        "src": "__VIRetraceHandler",
+        "tgt": "FUN_801268b0",
+        "addr": 2148690096,
+        "size": 628,
+        "score": 0.8840764331210191
+      },
+      {
+        "src": "VISetPreRetraceCallback",
+        "tgt": "FUN_80126b24",
+        "addr": 2148690724,
+        "size": 68,
+        "score": 0.9176470588235294
+      },
+      {
+        "src": "VISetPostRetraceCallback",
+        "tgt": "FUN_80126b24",
+        "addr": 2148690724,
+        "size": 68,
+        "score": 0.9176470588235294
+      },
+      {
+        "src": "getTiming",
+        "tgt": "FUN_80126bac",
+        "addr": 2148690860,
+        "size": 160,
+        "score": 0.8392566782810686
+      },
+      {
+        "src": "__VIInit",
+        "tgt": "FUN_80126c4c",
+        "addr": 2148691020,
+        "size": 512,
+        "score": 0.8776859191203131
+      },
+      {
+        "src": "VIInit",
+        "tgt": "FUN_80126e4c",
+        "addr": 2148691532,
+        "size": 1200,
+        "score": 0.9276666666666666
+      },
+      {
+        "src": "VIWaitForRetrace",
+        "tgt": "FUN_801272fc",
+        "addr": 2148692732,
+        "size": 84,
+        "score": 0.9
+      },
+      {
+        "src": "setFbbRegs",
+        "tgt": "FUN_80127350",
+        "addr": 2148692816,
+        "size": 724,
+        "score": 0.776243093922652
+      },
+      {
+        "src": "setVerticalRegs",
+        "tgt": "FUN_80127624",
+        "addr": 2148693540,
+        "size": 416,
+        "score": 0.7653846153846154
+      },
+      {
+        "src": "VIConfigure",
+        "tgt": "FUN_801277c4",
+        "addr": 2148693956,
+        "size": 2088,
+        "score": 0.6504837164750957
+      },
+      {
+        "src": "VIFlush",
+        "tgt": "FUN_80128380",
+        "addr": 2148696960,
+        "size": 304,
+        "score": 0.8157894736842105
+      },
+      {
+        "src": "VISetNextFrameBuffer",
+        "tgt": "FUN_801284b0",
+        "addr": 2148697264,
+        "size": 108,
+        "score": 0.9740740740740741
+      },
+      {
+        "src": "VISetBlack",
+        "tgt": "FUN_8012851c",
+        "addr": 2148697372,
+        "size": 124,
+        "score": 1.0
+      },
+      {
+        "src": "GetCurrentDisplayPosition",
+        "tgt": "FUN_801285a0",
+        "addr": 2148697504,
+        "size": 60,
+        "score": 0.9
+      },
+      {
+        "src": "getCurrentFieldEvenOdd",
+        "tgt": "FUN_801285dc",
+        "addr": 2148697564,
+        "size": 104,
+        "score": 0.8730769230769231
+      },
+      {
+        "src": "VIGetNextField",
+        "tgt": "FUN_80128644",
+        "addr": 2148697668,
+        "size": 156,
+        "score": 0.982051282051282
+      },
+      {
+        "src": "VIGetCurrentLine",
+        "tgt": "FUN_801286e0",
+        "addr": 2148697824,
+        "size": 152,
+        "score": 0.9631578947368421
+      },
+      {
+        "src": "VIGetTvFormat",
+        "tgt": "FUN_80128778",
+        "addr": 2148697976,
+        "size": 104,
+        "score": 0.9192307692307692
+      }
+    ],
+    "total_functions": 22,
+    "kept_functions": 18,
+    "outliers": [
+      {
+        "src": "VIGetRetraceCount",
+        "tgt": "FUN_800d3b3c",
+        "addr": 2148350780,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "VIGetDTVStatus",
+        "tgt": "FUN_8011ce00",
+        "addr": 2148650496,
+        "size": 64,
+        "score": 0.726149193548387
+      },
+      {
+        "src": "__VIDisplayPositionToXY",
+        "tgt": "FUN_801287e0",
+        "addr": 2148698080,
+        "size": 540,
+        "score": 0.8948148148148148
+      },
+      {
+        "src": "__VIGetCurrentPosition",
+        "tgt": "FUN_801289fc",
+        "addr": 2148698620,
+        "size": 96,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "pad/Pad.c",
+    "min_addr": 2148698716,
+    "max_end": 2148705064,
+    "covered_bytes": 4184,
+    "coverage_ratio": 0.6591052299936988,
+    "functions": [
+      {
+        "src": "UpdateOrigin",
+        "tgt": "FUN_80128a5c",
+        "addr": 2148698716,
+        "size": 420,
+        "score": 0.9866666666666667
+      },
+      {
+        "src": "PADOriginCallback",
+        "tgt": "FUN_80128c00",
+        "addr": 2148699136,
+        "size": 196,
+        "score": 0.8285714285714285
+      },
+      {
+        "src": "PADOriginUpdateCallback",
+        "tgt": "FUN_80128cc4",
+        "addr": 2148699332,
+        "size": 204,
+        "score": 0.8490196078431372
+      },
+      {
+        "src": "PADProbeCallback",
+        "tgt": "FUN_80128d90",
+        "addr": 2148699536,
+        "size": 216,
+        "score": 0.8185185185185185
+      },
+      {
+        "src": "PADTypeAndStatusCallback",
+        "tgt": "FUN_80128e68",
+        "addr": 2148699752,
+        "size": 812,
+        "score": 0.6551724137931034
+      },
+      {
+        "src": "PADReceiveCheckCallback",
+        "tgt": "FUN_80129194",
+        "addr": 2148700564,
+        "size": 320,
+        "score": 0.85125
+      },
+      {
+        "src": "PADReset",
+        "tgt": "FUN_801292d4",
+        "addr": 2148700884,
+        "size": 272,
+        "score": 0.7838235294117647
+      },
+      {
+        "src": "PADRecalibrate",
+        "tgt": "FUN_801293e4",
+        "addr": 2148701156,
+        "size": 276,
+        "score": 0.7971014492753623
+      },
+      {
+        "src": "PADInit",
+        "tgt": "FUN_801294f8",
+        "addr": 2148701432,
+        "size": 336,
+        "score": 0.9500000000000001
+      },
+      {
+        "src": "PADRead",
+        "tgt": "FUN_80129648",
+        "addr": 2148701768,
+        "size": 768,
+        "score": 0.9234375
+      },
+      {
+        "src": "PADControlMotor",
+        "tgt": "FUN_80129948",
+        "addr": 2148702536,
+        "size": 184,
+        "score": 0.9543478260869566
+      },
+      {
+        "src": "SPEC0_MakeStatus",
+        "tgt": "FUN_80128a5c",
+        "addr": 2148698716,
+        "size": 420,
+        "score": 0.26609878166840195
+      },
+      {
+        "src": "SPEC1_MakeStatus",
+        "tgt": "FUN_80128a5c",
+        "addr": 2148698716,
+        "size": 420,
+        "score": 0.26609878166840195
+      },
+      {
+        "src": "SamplingHandler",
+        "tgt": "FUN_8012a274",
+        "addr": 2148704884,
+        "size": 96,
+        "score": 0.9416666666666667
+      },
+      {
+        "src": "PADSetSamplingCallback",
+        "tgt": "FUN_8012a2d4",
+        "addr": 2148704980,
+        "size": 84,
+        "score": 0.8666666666666667
+      }
+    ],
+    "total_functions": 18,
+    "kept_functions": 15,
+    "outliers": [
+      {
+        "src": "PADSetSpec",
+        "tgt": "FUN_80170a14",
+        "addr": 2148993556,
+        "size": 80,
+        "score": 0.37803030303030305
+      },
+      {
+        "src": "SPEC2_MakeStatus",
+        "tgt": "FUN_8011091c",
+        "addr": 2148600092,
+        "size": 796,
+        "score": 0.14764722587099097
+      },
+      {
+        "src": "__PADDisableRecalibration",
+        "tgt": "FUN_8012a328",
+        "addr": 2148705064,
+        "size": 124,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "ai/ai.c",
+    "min_addr": 2148705188,
+    "max_end": 2148706920,
+    "covered_bytes": 1676,
+    "coverage_ratio": 0.9676674364896074,
+    "functions": [
+      {
+        "src": "AIRegisterDMACallback",
+        "tgt": "FUN_8012a3a4",
+        "addr": 2148705188,
+        "size": 68,
+        "score": 0.9176470588235294
+      },
+      {
+        "src": "AIInitDMA",
+        "tgt": "FUN_8012a3e8",
+        "addr": 2148705256,
+        "size": 136,
+        "score": 1.0
+      },
+      {
+        "src": "AIStartDMA",
+        "tgt": "FUN_8012a470",
+        "addr": 2148705392,
+        "size": 24,
+        "score": 0.9
+      },
+      {
+        "src": "AIGetDMAStartAddr",
+        "tgt": "FUN_8012a4a0",
+        "addr": 2148705440,
+        "size": 28,
+        "score": 0.9
+      },
+      {
+        "src": "AISetStreamPlayState",
+        "tgt": "FUN_8012a4bc",
+        "addr": 2148705468,
+        "size": 216,
+        "score": 1.0
+      },
+      {
+        "src": "AIGetStreamPlayState",
+        "tgt": "FUN_8012a594",
+        "addr": 2148705684,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "AISetDSPSampleRate",
+        "tgt": "FUN_8012a5a4",
+        "addr": 2148705700,
+        "size": 224,
+        "score": 1.0
+      },
+      {
+        "src": "AIGetDSPSampleRate",
+        "tgt": "FUN_8012a684",
+        "addr": 2148705924,
+        "size": 20,
+        "score": 0.9
+      },
+      {
+        "src": "__AI_set_stream_sample_rate",
+        "tgt": "FUN_8012a698",
+        "addr": 2148705944,
+        "size": 212,
+        "score": 1.0
+      },
+      {
+        "src": "AIGetStreamSampleRate",
+        "tgt": "FUN_8012a76c",
+        "addr": 2148706156,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "AISetStreamVolLeft",
+        "tgt": "FUN_8012a77c",
+        "addr": 2148706172,
+        "size": 28,
+        "score": 0.9
+      },
+      {
+        "src": "AIGetStreamVolLeft",
+        "tgt": "FUN_8012a594",
+        "addr": 2148705684,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "AISetStreamVolRight",
+        "tgt": "FUN_8012a7a8",
+        "addr": 2148706216,
+        "size": 28,
+        "score": 0.9
+      },
+      {
+        "src": "AIGetStreamVolRight",
+        "tgt": "FUN_8012a76c",
+        "addr": 2148706156,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "AIInit",
+        "tgt": "FUN_8012a7d4",
+        "addr": 2148706260,
+        "size": 364,
+        "score": 0.8615384615384616
+      },
+      {
+        "src": "__AISHandler",
+        "tgt": "FUN_8012a940",
+        "addr": 2148706624,
+        "size": 124,
+        "score": 0.9774193548387097
+      },
+      {
+        "src": "__AIDHandler",
+        "tgt": "FUN_8012a9bc",
+        "addr": 2148706748,
+        "size": 172,
+        "score": 0.9186046511627907
+      }
+    ],
+    "total_functions": 21,
+    "kept_functions": 17,
+    "outliers": [
+      {
+        "src": "AIGetDMALength",
+        "tgt": "FUN_80280b20",
+        "addr": 2150107936,
+        "size": 16,
+        "score": 0.725
+      },
+      {
+        "src": "AIGetStreamSampleCount",
+        "tgt": "FUN_80118c00",
+        "addr": 2148633600,
+        "size": 20,
+        "score": 0.6266666666666667
+      },
+      {
+        "src": "__AICallbackStackSwitch",
+        "tgt": "FUN_8012aa68",
+        "addr": 2148706920,
+        "size": 88,
+        "score": 0.9
+      },
+      {
+        "src": "__AI_SRC_INIT",
+        "tgt": "FUN_8012aac0",
+        "addr": 2148707008,
+        "size": 564,
+        "score": 0.8647609766661252
+      }
+    ]
+  },
+  {
+    "file": "card/CARDCheck.c",
+    "min_addr": 2150117280,
+    "max_end": 2150121140,
+    "covered_bytes": 3860,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__CARDCheckSum",
+        "tgt": "FUN_80282fa0",
+        "addr": 2150117280,
+        "size": 432,
+        "score": 0.9
+      },
+      {
+        "src": "VerifyID",
+        "tgt": "FUN_80283150",
+        "addr": 2150117712,
+        "size": 644,
+        "score": 1.0
+      },
+      {
+        "src": "VerifyDir",
+        "tgt": "FUN_802833d4",
+        "addr": 2150118356,
+        "size": 576,
+        "score": 1.0
+      },
+      {
+        "src": "VerifyFAT",
+        "tgt": "FUN_80283614",
+        "addr": 2150118932,
+        "size": 644,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDVerify",
+        "tgt": "FUN_80283898",
+        "addr": 2150119576,
+        "size": 140,
+        "score": 1.0
+      },
+      {
+        "src": "CARDCheckExAsync",
+        "tgt": "FUN_80283924",
+        "addr": 2150119716,
+        "size": 1424,
+        "score": 1.0
+      }
+    ],
+    "total_functions": 7,
+    "kept_functions": 6,
+    "outliers": [
+      {
+        "src": "CARDCheckAsync",
+        "tgt": "FUN_8028fdb4",
+        "addr": 2150170036,
+        "size": 44,
+        "score": 0.8818181818181817
+      }
+    ]
+  },
+  {
+    "file": "card/CARDMount.c",
+    "min_addr": 2150121224,
+    "max_end": 2150123976,
+    "covered_bytes": 2680,
+    "coverage_ratio": 0.9738372093023255,
+    "functions": [
+      {
+        "src": "IsCard",
+        "tgt": "FUN_80283f08",
+        "addr": 2150121224,
+        "size": 204,
+        "score": 0.8862745098039215
+      },
+      {
+        "src": "CARDProbeEx",
+        "tgt": "FUN_80283fd4",
+        "addr": 2150121428,
+        "size": 380,
+        "score": 1.0
+      },
+      {
+        "src": "DoMount",
+        "tgt": "FUN_80284150",
+        "addr": 2150121808,
+        "size": 1040,
+        "score": 0.9512604210020663
+      },
+      {
+        "src": "__CARDMountCallback",
+        "tgt": "FUN_80284560",
+        "addr": 2150122848,
+        "size": 312,
+        "score": 0.9910256410256411
+      },
+      {
+        "src": "CARDMountAsync",
+        "tgt": "FUN_80284698",
+        "addr": 2150123160,
+        "size": 416,
+        "score": 0.9932692307692308
+      },
+      {
+        "src": "DoUnmount",
+        "tgt": "FUN_80284880",
+        "addr": 2150123648,
+        "size": 156,
+        "score": 1.0
+      },
+      {
+        "src": "CARDUnmount",
+        "tgt": "FUN_8028491c",
+        "addr": 2150123804,
+        "size": 172,
+        "score": 1.0
+      }
+    ],
+    "total_functions": 8,
+    "kept_functions": 7,
+    "outliers": [
+      {
+        "src": "CARDProbe",
+        "tgt": "FUN_80125208",
+        "addr": 2148684296,
+        "size": 56,
+        "score": 0.7470588235294118
+      }
+    ]
+  },
+  {
+    "file": "card/CARDOpen.c",
+    "min_addr": 2150126008,
+    "max_end": 2150127516,
+    "covered_bytes": 1508,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__CARDCompareFileName",
+        "tgt": "FUN_802851b8",
+        "addr": 2150126008,
+        "size": 104,
+        "score": 0.9
+      },
+      {
+        "src": "__CARDAccess",
+        "tgt": "FUN_80285220",
+        "addr": 2150126112,
+        "size": 148,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDIsWritable",
+        "tgt": "FUN_802852b4",
+        "addr": 2150126260,
+        "size": 308,
+        "score": 0.990909090909091
+      },
+      {
+        "src": "__CARDIsReadable",
+        "tgt": "FUN_802853e8",
+        "addr": 2150126568,
+        "size": 244,
+        "score": 0.9885245901639345
+      },
+      {
+        "src": "__CARDGetFileNo",
+        "tgt": "FUN_802854dc",
+        "addr": 2150126812,
+        "size": 336,
+        "score": 1.0
+      },
+      {
+        "src": "CARDOpen",
+        "tgt": "FUN_8028562c",
+        "addr": 2150127148,
+        "size": 284,
+        "score": 1.0
+      },
+      {
+        "src": "CARDClose",
+        "tgt": "FUN_80285748",
+        "addr": 2150127432,
+        "size": 84,
+        "score": 1.0
+      }
+    ],
+    "total_functions": 8,
+    "kept_functions": 7,
+    "outliers": [
+      {
+        "src": "__CARDIsOpened",
+        "tgt": "FUN_8016a374",
+        "addr": 2148967284,
+        "size": 8,
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "file": "gx/GXFrameBuf.c",
+    "min_addr": 2150152840,
+    "max_end": 2150155684,
+    "covered_bytes": 2720,
+    "coverage_ratio": 0.9563994374120957,
+    "functions": [
+      {
+        "src": "GXAdjustForOverscan",
+        "tgt": "FUN_8028ba88",
+        "addr": 2150152840,
+        "size": 324,
+        "score": 0.9
+      },
+      {
+        "src": "GXSetDispCopySrc",
+        "tgt": "FUN_8028bbcc",
+        "addr": 2150153164,
+        "size": 124,
+        "score": 0.8774193548387097
+      },
+      {
+        "src": "GXSetTexCopySrc",
+        "tgt": "FUN_8028bbcc",
+        "addr": 2150153164,
+        "size": 124,
+        "score": 0.8774193548387097
+      },
+      {
+        "src": "GXSetDispCopyDst",
+        "tgt": "FUN_8028bcc4",
+        "addr": 2150153412,
+        "size": 52,
+        "score": 0.8461538461538463
+      },
+      {
+        "src": "GXSetTexCopyDst",
+        "tgt": "FUN_8028bcf8",
+        "addr": 2150153464,
+        "size": 304,
+        "score": 0.9539473684210527
+      },
+      {
+        "src": "GXSetDispCopyFrame2Field",
+        "tgt": "FUN_8028be28",
+        "addr": 2150153768,
+        "size": 36,
+        "score": 0.8222222222222222
+      },
+      {
+        "src": "GXSetCopyClamp",
+        "tgt": "FUN_8028be4c",
+        "addr": 2150153804,
+        "size": 88,
+        "score": 0.8681818181818183
+      },
+      {
+        "src": "GXGetYScaleFactor",
+        "tgt": "FUN_8028bea4",
+        "addr": 2150153892,
+        "size": 568,
+        "score": 0.9704225352112675
+      },
+      {
+        "src": "GXSetDispCopyYScale",
+        "tgt": "FUN_8028c0dc",
+        "addr": 2150154460,
+        "size": 204,
+        "score": 0.9725490196078431
+      },
+      {
+        "src": "GXSetCopyClear",
+        "tgt": "FUN_8028c1a8",
+        "addr": 2150154664,
+        "size": 120,
+        "score": 0.8766666666666667
+      },
+      {
+        "src": "GXSetCopyFilter",
+        "tgt": "FUN_8028c220",
+        "addr": 2150154784,
+        "size": 520,
+        "score": 0.8946153846153847
+      },
+      {
+        "src": "GXSetDispCopyGamma",
+        "tgt": "FUN_8028c428",
+        "addr": 2150155304,
+        "size": 20,
+        "score": 0.76
+      },
+      {
+        "src": "GXCopyDisp",
+        "tgt": "FUN_8028c43c",
+        "addr": 2150155324,
+        "size": 360,
+        "score": 0.8533333333333334
+      }
+    ],
+    "total_functions": 16,
+    "kept_functions": 13,
+    "outliers": [
+      {
+        "src": "GXCopyTex",
+        "tgt": "FUN_8028c5a4",
+        "addr": 2150155684,
+        "size": 396,
+        "score": 0.8646464646464647
+      },
+      {
+        "src": "GXClearBoundingBox",
+        "tgt": "FUN_8028c730",
+        "addr": 2150156080,
+        "size": 56,
+        "score": 0.8500000000000001
+      },
+      {
+        "src": "GXReadBoundingBox",
+        "tgt": "FUN_801a2ab0",
+        "addr": 2149198512,
+        "size": 44,
+        "score": 0.37344804318488534
+      }
+    ]
+  },
+  {
+    "file": "gx/GXLight.c",
+    "min_addr": 2150156168,
+    "max_end": 2150157496,
+    "covered_bytes": 1072,
+    "coverage_ratio": 0.8072289156626506,
+    "functions": [
+      {
+        "src": "GXInitLightAttn",
+        "tgt": "FUN_8028c9f8",
+        "addr": 2150156792,
+        "size": 28,
+        "score": 0.31
+      },
+      {
+        "src": "GXInitLightSpot",
+        "tgt": "FUN_8028c788",
+        "addr": 2150156168,
+        "size": 400,
+        "score": 0.8125
+      },
+      {
+        "src": "GXInitLightDistAttn",
+        "tgt": "FUN_8028c918",
+        "addr": 2150156568,
+        "size": 208,
+        "score": 0.2
+      },
+      {
+        "src": "GXInitLightDir",
+        "tgt": "FUN_8028c9f8",
+        "addr": 2150156792,
+        "size": 28,
+        "score": 0.9
+      },
+      {
+        "src": "GXInitLightColor",
+        "tgt": "FUN_8028ca14",
+        "addr": 2150156820,
+        "size": 12,
+        "score": 0.9
+      },
+      {
+        "src": "GXLoadLightObjImm",
+        "tgt": "FUN_8028ca20",
+        "addr": 2150156832,
+        "size": 124,
+        "score": 0.9
+      },
+      {
+        "src": "GXSetChanAmbColor",
+        "tgt": "FUN_8028ca9c",
+        "addr": 2150156956,
+        "size": 240,
+        "score": 0.7865536723163842
+      },
+      {
+        "src": "GXSetChanMatColor",
+        "tgt": "FUN_8028ca9c",
+        "addr": 2150156956,
+        "size": 240,
+        "score": 0.7865536723163842
+      },
+      {
+        "src": "GXSetNumChans",
+        "tgt": "FUN_8028cc7c",
+        "addr": 2150157436,
+        "size": 60,
+        "score": 0.8533333333333334
+      }
+    ],
+    "total_functions": 11,
+    "kept_functions": 9,
+    "outliers": [
+      {
+        "src": "GXInitLightPos",
+        "tgt": "FUN_8028c768",
+        "addr": 2150156136,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "GXSetChanCtrl",
+        "tgt": "FUN_8028e21c",
+        "addr": 2150162972,
+        "size": 124,
+        "score": 0.34424009324009325
+      }
+    ]
+  },
+  {
+    "file": "exi/EXIBios.c",
+    "min_addr": 2148657868,
+    "max_end": 2148662696,
+    "covered_bytes": 4828,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "EXIImmEx",
+        "tgt": "FUN_8011eacc",
+        "addr": 2148657868,
+        "size": 160,
+        "score": 1.0
+      },
+      {
+        "src": "EXIDma",
+        "tgt": "FUN_8011eb6c",
+        "addr": 2148658028,
+        "size": 236,
+        "score": 1.0
+      },
+      {
+        "src": "EXISync",
+        "tgt": "FUN_8011ec58",
+        "addr": 2148658264,
+        "size": 588,
+        "score": 1.0
+      },
+      {
+        "src": "EXIClearInterrupts",
+        "tgt": "FUN_8011eea4",
+        "addr": 2148658852,
+        "size": 72,
+        "score": 0.9
+      },
+      {
+        "src": "EXISetExiCallback",
+        "tgt": "FUN_8011eeec",
+        "addr": 2148658924,
+        "size": 124,
+        "score": 1.0
+      },
+      {
+        "src": "__EXIProbe",
+        "tgt": "FUN_8011ef68",
+        "addr": 2148659048,
+        "size": 372,
+        "score": 1.0
+      },
+      {
+        "src": "EXIProbe",
+        "tgt": "FUN_8011f0dc",
+        "addr": 2148659420,
+        "size": 128,
+        "score": 1.0
+      },
+      {
+        "src": "EXIProbeEx",
+        "tgt": "FUN_8011f15c",
+        "addr": 2148659548,
+        "size": 180,
+        "score": 1.0
+      },
+      {
+        "src": "EXIAttach",
+        "tgt": "FUN_8011f210",
+        "addr": 2148659728,
+        "size": 268,
+        "score": 1.0
+      },
+      {
+        "src": "EXIDetach",
+        "tgt": "FUN_8011f31c",
+        "addr": 2148659996,
+        "size": 188,
+        "score": 1.0
+      },
+      {
+        "src": "EXISelect",
+        "tgt": "FUN_8011f3d8",
+        "addr": 2148660184,
+        "size": 300,
+        "score": 1.0
+      },
+      {
+        "src": "EXIDeselect",
+        "tgt": "FUN_8011f504",
+        "addr": 2148660484,
+        "size": 272,
+        "score": 1.0
+      },
+      {
+        "src": "EXIIntrruptHandler",
+        "tgt": "FUN_8011f614",
+        "addr": 2148660756,
+        "size": 200,
+        "score": 1.0
+      },
+      {
+        "src": "TCIntrruptHandler",
+        "tgt": "FUN_8011f6dc",
+        "addr": 2148660956,
+        "size": 536,
+        "score": 1.0
+      },
+      {
+        "src": "EXTIntrruptHandler",
+        "tgt": "FUN_8011f8f4",
+        "addr": 2148661492,
+        "size": 208,
+        "score": 1.0
+      },
+      {
+        "src": "EXIInit",
+        "tgt": "FUN_8011f9c4",
+        "addr": 2148661700,
+        "size": 468,
+        "score": 0.9641025641025641
+      },
+      {
+        "src": "EXILock",
+        "tgt": "FUN_8011fb98",
+        "addr": 2148662168,
+        "size": 244,
+        "score": 1.0
+      },
+      {
+        "src": "EXIUnlock",
+        "tgt": "FUN_8011fc8c",
+        "addr": 2148662412,
+        "size": 220,
+        "score": 1.0
+      },
+      {
+        "src": "EXIGetState",
+        "tgt": "FUN_8011fd68",
+        "addr": 2148662632,
+        "size": 24,
+        "score": 0.9
+      },
+      {
+        "src": "UnlockedHandler",
+        "tgt": "FUN_8011fd80",
+        "addr": 2148662656,
+        "size": 40,
+        "score": 1.0
+      }
+    ],
+    "total_functions": 24,
+    "kept_functions": 20,
+    "outliers": [
+      {
+        "src": "SetExiInterruptMask",
+        "tgt": "FUN_8011e77c",
+        "addr": 2148657020,
+        "size": 244,
+        "score": 1.0
+      },
+      {
+        "src": "EXIImm",
+        "tgt": "FUN_8011e870",
+        "addr": 2148657264,
+        "size": 604,
+        "score": 1.0
+      },
+      {
+        "src": "EXIGetID",
+        "tgt": "FUN_8011fda8",
+        "addr": 2148662696,
+        "size": 944,
+        "score": 0.9940677966101695
+      },
+      {
+        "src": "EXIGetType",
+        "tgt": "FUN_801255d0",
+        "addr": 2148685264,
+        "size": 248,
+        "score": 0.40295488017137493
+      }
+    ]
+  }
+]

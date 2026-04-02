@@ -1,0 +1,1575 @@
+[
+  {
+    "file": "main.c",
+    "min_addr": 2149175296,
+    "max_end": 2149175360,
+    "covered_bytes": 64,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "main",
+        "tgt": "FUN_8019d000",
+        "addr": 2149175296,
+        "size": 64,
+        "score": 0.47863577863577866
+      }
+    ]
+  },
+  {
+    "file": "musyx/runtime/hw_volconv.c",
+    "min_addr": 2149190728,
+    "max_end": 2149193128,
+    "covered_bytes": 2400,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "salCalcVolume",
+        "tgt": "FUN_801a0c48",
+        "addr": 2149190728,
+        "size": 2400,
+        "score": 0.16183516483516483
+      }
+    ]
+  },
+  {
+    "file": "musyx/runtime/CheapReverb/creverb_fx.c",
+    "min_addr": 2149676164,
+    "max_end": 2149676212,
+    "covered_bytes": 48,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "sndAuxCallbackPrepareReverbSTD",
+        "tgt": "FUN_80217484",
+        "addr": 2149676164,
+        "size": 48,
+        "score": 0.6949019607843137
+      }
+    ]
+  },
+  {
+    "file": "musyx/runtime/CheapReverb/creverb.c",
+    "min_addr": 2149214940,
+    "max_end": 2149215876,
+    "covered_bytes": 936,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "ReverbSTDCreate",
+        "tgt": "FUN_801a6adc",
+        "addr": 2149214940,
+        "size": 936,
+        "score": 0.21898496240601503
+      }
+    ]
+  },
+  {
+    "file": "odenotstub/odenotstub.c",
+    "min_addr": 2147497940,
+    "max_end": 2147497948,
+    "covered_bytes": 8,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "Hu_IsStub",
+        "tgt": "FUN_800037d4",
+        "addr": 2147497940,
+        "size": 8,
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "file": "os/OSAudioSystem.c",
+    "min_addr": 2148635632,
+    "max_end": 2148636292,
+    "covered_bytes": 660,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__OSInitAudioSystem",
+        "tgt": "FUN_801193f0",
+        "addr": 2148635632,
+        "size": 444,
+        "score": 0.9936936936936936
+      },
+      {
+        "src": "__OSStopAudioSystem",
+        "tgt": "FUN_801195ac",
+        "addr": 2148636076,
+        "size": 216,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "os/OSCache.c",
+    "min_addr": 2148636292,
+    "max_end": 2148637948,
+    "covered_bytes": 1656,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "DCEnable",
+        "tgt": "FUN_80119684",
+        "addr": 2148636292,
+        "size": 20,
+        "score": 0.9
+      },
+      {
+        "src": "DCInvalidateRange",
+        "tgt": "FUN_80119698",
+        "addr": 2148636312,
+        "size": 44,
+        "score": 0.9
+      },
+      {
+        "src": "DCFlushRange",
+        "tgt": "FUN_801196c4",
+        "addr": 2148636356,
+        "size": 48,
+        "score": 0.9
+      },
+      {
+        "src": "DCStoreRange",
+        "tgt": "FUN_801196f4",
+        "addr": 2148636404,
+        "size": 48,
+        "score": 0.9
+      },
+      {
+        "src": "DCFlushRangeNoSync",
+        "tgt": "FUN_80119724",
+        "addr": 2148636452,
+        "size": 44,
+        "score": 0.9
+      },
+      {
+        "src": "DCStoreRangeNoSync",
+        "tgt": "FUN_80119750",
+        "addr": 2148636496,
+        "size": 44,
+        "score": 0.9
+      },
+      {
+        "src": "DCZeroRange",
+        "tgt": "FUN_8011977c",
+        "addr": 2148636540,
+        "size": 44,
+        "score": 0.9
+      },
+      {
+        "src": "ICInvalidateRange",
+        "tgt": "FUN_801197a8",
+        "addr": 2148636584,
+        "size": 52,
+        "score": 0.9
+      },
+      {
+        "src": "ICFlashInvalidate",
+        "tgt": "FUN_801197dc",
+        "addr": 2148636636,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "ICEnable",
+        "tgt": "FUN_801197ec",
+        "addr": 2148636652,
+        "size": 20,
+        "score": 0.9
+      },
+      {
+        "src": "__LCEnable",
+        "tgt": "FUN_80119800",
+        "addr": 2148636672,
+        "size": 204,
+        "score": 0.9
+      },
+      {
+        "src": "LCEnable",
+        "tgt": "FUN_801198cc",
+        "addr": 2148636876,
+        "size": 56,
+        "score": 1.0
+      },
+      {
+        "src": "LCDisable",
+        "tgt": "FUN_80119904",
+        "addr": 2148636932,
+        "size": 40,
+        "score": 0.9
+      },
+      {
+        "src": "LCStoreBlocks",
+        "tgt": "FUN_8011992c",
+        "addr": 2148636972,
+        "size": 36,
+        "score": 0.9
+      },
+      {
+        "src": "LCStoreData",
+        "tgt": "FUN_80119950",
+        "addr": 2148637008,
+        "size": 172,
+        "score": 1.0
+      },
+      {
+        "src": "LCQueueWait",
+        "tgt": "FUN_801199fc",
+        "addr": 2148637180,
+        "size": 20,
+        "score": 0.9
+      },
+      {
+        "src": "L2GlobalInvalidate",
+        "tgt": "FUN_80119a10",
+        "addr": 2148637200,
+        "size": 152,
+        "score": 0.9815789473684211
+      },
+      {
+        "src": "DMAErrorHandler",
+        "tgt": "FUN_80119aa8",
+        "addr": 2148637352,
+        "size": 352,
+        "score": 0.9920454545454546
+      },
+      {
+        "src": "__OSCacheInit",
+        "tgt": "FUN_80119c08",
+        "addr": 2148637704,
+        "size": 244,
+        "score": 0.9770491803278688
+      }
+    ]
+  },
+  {
+    "file": "os/OSError.c",
+    "min_addr": 2148640156,
+    "max_end": 2148641864,
+    "covered_bytes": 1708,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "OSReport",
+        "tgt": "FUN_8011a59c",
+        "addr": 2148640156,
+        "size": 128,
+        "score": 1.0
+      },
+      {
+        "src": "OSPanic",
+        "tgt": "FUN_8011a61c",
+        "addr": 2148640284,
+        "size": 300,
+        "score": 0.9906666666666667
+      },
+      {
+        "src": "OSSetErrorHandler",
+        "tgt": "FUN_8011a748",
+        "addr": 2148640584,
+        "size": 536,
+        "score": 0.9895522388059701
+      },
+      {
+        "src": "__OSUnhandledException",
+        "tgt": "FUN_8011a960",
+        "addr": 2148641120,
+        "size": 744,
+        "score": 0.9698924731182796
+      }
+    ]
+  },
+  {
+    "file": "os/OSMutex.c",
+    "min_addr": 2148656048,
+    "max_end": 2148656160,
+    "covered_bytes": 112,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__OSUnlockAllMutex",
+        "tgt": "FUN_8011e3b0",
+        "addr": 2148656048,
+        "size": 112,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "os/OSResetSW.c",
+    "min_addr": 2148645980,
+    "max_end": 2148647004,
+    "covered_bytes": 908,
+    "coverage_ratio": 0.88671875,
+    "functions": [
+      {
+        "src": "__OSResetSWInterruptHandler",
+        "tgt": "FUN_8011bc5c",
+        "addr": 2148645980,
+        "size": 244,
+        "score": 0.9081967213114754
+      },
+      {
+        "src": "OSGetResetButtonState",
+        "tgt": "FUN_8011bdc4",
+        "addr": 2148646340,
+        "size": 664,
+        "score": 0.8987951807228916
+      }
+    ]
+  },
+  {
+    "file": "os/OSRtc.c",
+    "min_addr": 2148647004,
+    "max_end": 2148649956,
+    "covered_bytes": 2952,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "WriteSramCallback",
+        "tgt": "FUN_8011c05c",
+        "addr": 2148647004,
+        "size": 96,
+        "score": 1.0
+      },
+      {
+        "src": "WriteSram",
+        "tgt": "FUN_8011c0bc",
+        "addr": 2148647100,
+        "size": 280,
+        "score": 0.99
+      },
+      {
+        "src": "__OSInitSram",
+        "tgt": "FUN_8011c1d4",
+        "addr": 2148647380,
+        "size": 316,
+        "score": 1.0
+      },
+      {
+        "src": "__OSLockSram",
+        "tgt": "FUN_8011c310",
+        "addr": 2148647696,
+        "size": 92,
+        "score": 1.0
+      },
+      {
+        "src": "__OSLockSramEx",
+        "tgt": "FUN_8011c36c",
+        "addr": 2148647788,
+        "size": 92,
+        "score": 1.0
+      },
+      {
+        "src": "UnlockSram",
+        "tgt": "FUN_8011c3c8",
+        "addr": 2148647880,
+        "size": 828,
+        "score": 0.9966183574879227
+      },
+      {
+        "src": "__OSUnlockSram",
+        "tgt": "FUN_8011c704",
+        "addr": 2148648708,
+        "size": 36,
+        "score": 1.0
+      },
+      {
+        "src": "__OSUnlockSramEx",
+        "tgt": "FUN_8011c728",
+        "addr": 2148648744,
+        "size": 36,
+        "score": 1.0
+      },
+      {
+        "src": "__OSSyncSram",
+        "tgt": "FUN_8011c74c",
+        "addr": 2148648780,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "__OSReadROM",
+        "tgt": "FUN_8011c75c",
+        "addr": 2148648796,
+        "size": 292,
+        "score": 1.0
+      },
+      {
+        "src": "OSGetSoundMode",
+        "tgt": "FUN_8011c880",
+        "addr": 2148649088,
+        "size": 128,
+        "score": 1.0
+      },
+      {
+        "src": "OSSetSoundMode",
+        "tgt": "FUN_8011c9f0",
+        "addr": 2148649456,
+        "size": 172,
+        "score": 0.7233154442456767
+      },
+      {
+        "src": "OSGetProgressiveMode",
+        "tgt": "FUN_8011c900",
+        "addr": 2148649216,
+        "size": 108,
+        "score": 0.9801298701298701
+      },
+      {
+        "src": "OSSetProgressiveMode",
+        "tgt": "FUN_8011c9f0",
+        "addr": 2148649456,
+        "size": 172,
+        "score": 0.7233154442456767
+      },
+      {
+        "src": "OSGetWirelessID",
+        "tgt": "FUN_8011c96c",
+        "addr": 2148649324,
+        "size": 132,
+        "score": 1.0
+      },
+      {
+        "src": "OSSetWirelessID",
+        "tgt": "FUN_8011c9f0",
+        "addr": 2148649456,
+        "size": 172,
+        "score": 1.0
+      },
+      {
+        "src": "OSGetGbsMode",
+        "tgt": "FUN_8011ca9c",
+        "addr": 2148649628,
+        "size": 112,
+        "score": 1.0
+      },
+      {
+        "src": "OSSetGbsMode",
+        "tgt": "FUN_8011cb0c",
+        "addr": 2148649740,
+        "size": 216,
+        "score": 0.9143703703703704
+      }
+    ]
+  },
+  {
+    "file": "os/OSTime.c",
+    "min_addr": 2148654808,
+    "max_end": 2148655868,
+    "covered_bytes": 1060,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "OSGetTime",
+        "tgt": "FUN_8011ded8",
+        "addr": 2148654808,
+        "size": 24,
+        "score": 0.9
+      },
+      {
+        "src": "OSGetTick",
+        "tgt": "FUN_8011def0",
+        "addr": 2148654832,
+        "size": 8,
+        "score": 0.9
+      },
+      {
+        "src": "__OSGetSystemTime",
+        "tgt": "FUN_8011def8",
+        "addr": 2148654840,
+        "size": 100,
+        "score": 1.0
+      },
+      {
+        "src": "GetDates",
+        "tgt": "FUN_8011df5c",
+        "addr": 2148654940,
+        "size": 412,
+        "score": 0.8864077669902913
+      },
+      {
+        "src": "OSTicksToCalendarTime",
+        "tgt": "FUN_8011e0f8",
+        "addr": 2148655352,
+        "size": 516,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "os/__ppc_eabi_init.c",
+    "min_addr": 2148655868,
+    "max_end": 2148655984,
+    "covered_bytes": 116,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__init_user",
+        "tgt": "FUN_8011e2fc",
+        "addr": 2148655868,
+        "size": 32,
+        "score": 1.0
+      },
+      {
+        "src": "__init_cpp",
+        "tgt": "FUN_8011e31c",
+        "addr": 2148655900,
+        "size": 84,
+        "score": 0.8666666666666667
+      },
+      {
+        "src": "_ExitProcess",
+        "tgt": "FUN_8011e2fc",
+        "addr": 2148655868,
+        "size": 32,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "si/SIBios.c",
+    "min_addr": 2148665132,
+    "max_end": 2148671372,
+    "covered_bytes": 6240,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "AlarmHandler",
+        "tgt": "FUN_8012168c",
+        "addr": 2148669068,
+        "size": 140,
+        "score": 1.0
+      },
+      {
+        "src": "SIBusy",
+        "tgt": "FUN_8012072c",
+        "addr": 2148665132,
+        "size": 32,
+        "score": 0.9
+      },
+      {
+        "src": "SIIsChanBusy",
+        "tgt": "FUN_8012074c",
+        "addr": 2148665164,
+        "size": 60,
+        "score": 0.9
+      },
+      {
+        "src": "CompleteTransfer",
+        "tgt": "FUN_80120788",
+        "addr": 2148665224,
+        "size": 764,
+        "score": 1.0
+      },
+      {
+        "src": "SIInterruptHandler",
+        "tgt": "FUN_80120a84",
+        "addr": 2148665988,
+        "size": 836,
+        "score": 0.9899521531100479
+      },
+      {
+        "src": "SIEnablePollingInterrupt",
+        "tgt": "FUN_80120dc8",
+        "addr": 2148666824,
+        "size": 152,
+        "score": 1.0
+      },
+      {
+        "src": "SIRegisterPollingHandler",
+        "tgt": "FUN_80120e60",
+        "addr": 2148666976,
+        "size": 204,
+        "score": 1.0
+      },
+      {
+        "src": "SIUnregisterPollingHandler",
+        "tgt": "FUN_80120f2c",
+        "addr": 2148667180,
+        "size": 244,
+        "score": 1.0
+      },
+      {
+        "src": "SIInit",
+        "tgt": "FUN_80121020",
+        "addr": 2148667424,
+        "size": 180,
+        "score": 0.9844444444444445
+      },
+      {
+        "src": "__SITransfer",
+        "tgt": "FUN_801210d4",
+        "addr": 2148667604,
+        "size": 524,
+        "score": 1.0
+      },
+      {
+        "src": "SIGetStatus",
+        "tgt": "FUN_801212e0",
+        "addr": 2148668128,
+        "size": 124,
+        "score": 1.0
+      },
+      {
+        "src": "SISetCommand",
+        "tgt": "FUN_8012135c",
+        "addr": 2148668252,
+        "size": 20,
+        "score": 0.9
+      },
+      {
+        "src": "SITransferCommands",
+        "tgt": "FUN_80121370",
+        "addr": 2148668272,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "SISetXY",
+        "tgt": "FUN_80121380",
+        "addr": 2148668288,
+        "size": 108,
+        "score": 1.0
+      },
+      {
+        "src": "SIEnablePolling",
+        "tgt": "FUN_801213ec",
+        "addr": 2148668396,
+        "size": 156,
+        "score": 1.0
+      },
+      {
+        "src": "SIDisablePolling",
+        "tgt": "FUN_80121488",
+        "addr": 2148668552,
+        "size": 108,
+        "score": 1.0
+      },
+      {
+        "src": "SIGetResponseRaw",
+        "tgt": "FUN_801214f4",
+        "addr": 2148668660,
+        "size": 212,
+        "score": 1.0
+      },
+      {
+        "src": "SIGetResponse",
+        "tgt": "FUN_801215c8",
+        "addr": 2148668872,
+        "size": 196,
+        "score": 1.0
+      },
+      {
+        "src": "SITransfer",
+        "tgt": "FUN_80121718",
+        "addr": 2148669208,
+        "size": 364,
+        "score": 0.9923076923076923
+      },
+      {
+        "src": "GetTypeCallback",
+        "tgt": "FUN_80121884",
+        "addr": 2148669572,
+        "size": 664,
+        "score": 0.9789156626506024
+      },
+      {
+        "src": "SIGetType",
+        "tgt": "FUN_80121b1c",
+        "addr": 2148670236,
+        "size": 452,
+        "score": 0.9876106194690265
+      },
+      {
+        "src": "SIGetTypeAsync",
+        "tgt": "FUN_80121ce0",
+        "addr": 2148670688,
+        "size": 316,
+        "score": 1.0
+      },
+      {
+        "src": "SIDecodeType",
+        "tgt": "FUN_80121e1c",
+        "addr": 2148671004,
+        "size": 332,
+        "score": 0.9
+      },
+      {
+        "src": "SIProbe",
+        "tgt": "FUN_80121f68",
+        "addr": 2148671336,
+        "size": 36,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "dvd/dvdqueue.c",
+    "min_addr": 2148684352,
+    "max_end": 2148684856,
+    "covered_bytes": 504,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__DVDClearWaitingQueue",
+        "tgt": "FUN_80125240",
+        "addr": 2148684352,
+        "size": 56,
+        "score": 0.9
+      },
+      {
+        "src": "__DVDPushWaitingQueue",
+        "tgt": "FUN_80125278",
+        "addr": 2148684408,
+        "size": 104,
+        "score": 1.0
+      },
+      {
+        "src": "__DVDPopWaitingQueue",
+        "tgt": "FUN_801252e0",
+        "addr": 2148684512,
+        "size": 160,
+        "score": 1.0
+      },
+      {
+        "src": "__DVDCheckWaitingQueue",
+        "tgt": "FUN_80125380",
+        "addr": 2148684672,
+        "size": 88,
+        "score": 1.0
+      },
+      {
+        "src": "__DVDDequeueWaitingQueue",
+        "tgt": "FUN_801253d8",
+        "addr": 2148684760,
+        "size": 96,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "dvd/dvderror.c",
+    "min_addr": 2148684856,
+    "max_end": 2148685264,
+    "covered_bytes": 408,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "ErrorCode2Num",
+        "tgt": "FUN_80125438",
+        "addr": 2148684856,
+        "size": 284,
+        "score": 0.8901408450704226
+      },
+      {
+        "src": "__DVDStoreErrorCode",
+        "tgt": "FUN_80125554",
+        "addr": 2148685140,
+        "size": 124,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "dvd/dvdidutils.c",
+    "min_addr": 2148685264,
+    "max_end": 2148685512,
+    "covered_bytes": 248,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "DVDCompareDiskID",
+        "tgt": "FUN_801255d0",
+        "addr": 2148685264,
+        "size": 248,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "dvd/dvdFatal.c",
+    "min_addr": 2148673952,
+    "max_end": 2148674000,
+    "covered_bytes": 48,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__DVDPrintFatalMessage",
+        "tgt": "FUN_801229a0",
+        "addr": 2148673952,
+        "size": 48,
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "file": "dvd/fstload.c",
+    "min_addr": 2148685812,
+    "max_end": 2148686388,
+    "covered_bytes": 576,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "cb",
+        "tgt": "FUN_801257f4",
+        "addr": 2148685812,
+        "size": 216,
+        "score": 0.8703703703703703
+      },
+      {
+        "src": "__fstLoad",
+        "tgt": "FUN_801258cc",
+        "addr": 2148686028,
+        "size": 360,
+        "score": 0.8988888888888888
+      }
+    ]
+  },
+  {
+    "file": "pad/Padclamp.c",
+    "min_addr": 2150078864,
+    "max_end": 2150079556,
+    "covered_bytes": 692,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "ClampStick",
+        "tgt": "FUN_80279990",
+        "addr": 2150078864,
+        "size": 424,
+        "score": 0.2936512544059714
+      },
+      {
+        "src": "PADClamp",
+        "tgt": "FUN_80279b38",
+        "addr": 2150079288,
+        "size": 268,
+        "score": 0.9427323103154306
+      }
+    ]
+  },
+  {
+    "file": "dsp/dsp.c",
+    "min_addr": 2150107936,
+    "max_end": 2150108328,
+    "covered_bytes": 368,
+    "coverage_ratio": 0.9387755102040817,
+    "functions": [
+      {
+        "src": "DSPCheckMailToDSP",
+        "tgt": "FUN_80280b20",
+        "addr": 2150107936,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "DSPCheckMailFromDSP",
+        "tgt": "FUN_80280b20",
+        "addr": 2150107936,
+        "size": 16,
+        "score": 0.9
+      },
+      {
+        "src": "DSPReadMailFromDSP",
+        "tgt": "FUN_80280b40",
+        "addr": 2150107968,
+        "size": 24,
+        "score": 0.9
+      },
+      {
+        "src": "DSPSendMailToDSP",
+        "tgt": "FUN_80280b58",
+        "addr": 2150107992,
+        "size": 20,
+        "score": 0.9
+      },
+      {
+        "src": "DSPInit",
+        "tgt": "DSPInit",
+        "addr": 2150108012,
+        "size": 196,
+        "score": 0.9
+      },
+      {
+        "src": "DSPAddTask",
+        "tgt": "FUN_80280c38",
+        "addr": 2150108216,
+        "size": 112,
+        "score": 0.975
+      }
+    ]
+  },
+  {
+    "file": "dsp/dsp_debug.c",
+    "min_addr": 2148671792,
+    "max_end": 2148671872,
+    "covered_bytes": 80,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__DSP_debug_printf",
+        "tgt": "FUN_80122130",
+        "addr": 2148671792,
+        "size": 80,
+        "score": 0.9
+      }
+    ]
+  },
+  {
+    "file": "dsp/dsp_task.c",
+    "min_addr": 2150108672,
+    "max_end": 2150110856,
+    "covered_bytes": 2184,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "__DSPHandler",
+        "tgt": "FUN_80280e00",
+        "addr": 2150108672,
+        "size": 1060,
+        "score": 0.6513207547169811
+      },
+      {
+        "src": "__DSP_exec_task",
+        "tgt": "FUN_80281224",
+        "addr": 2150109732,
+        "size": 416,
+        "score": 1.0
+      },
+      {
+        "src": "__DSP_boot_task",
+        "tgt": "FUN_802813c4",
+        "addr": 2150110148,
+        "size": 396,
+        "score": 1.0
+      },
+      {
+        "src": "__DSP_insert_task",
+        "tgt": "FUN_80281550",
+        "addr": 2150110544,
+        "size": 160,
+        "score": 0.76
+      },
+      {
+        "src": "__DSP_remove_task",
+        "tgt": "FUN_802815f0",
+        "addr": 2150110704,
+        "size": 152,
+        "score": 0.6987368421052632
+      }
+    ]
+  },
+  {
+    "file": "card/CARDUnlock.c",
+    "min_addr": 2150132208,
+    "max_end": 2150136912,
+    "covered_bytes": 4704,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "bitrev",
+        "tgt": "FUN_802869f0",
+        "addr": 2150132208,
+        "size": 364,
+        "score": 0.9
+      },
+      {
+        "src": "ReadArrayUnlock",
+        "tgt": "FUN_80286b5c",
+        "addr": 2150132572,
+        "size": 324,
+        "score": 1.0
+      },
+      {
+        "src": "DummyLen",
+        "tgt": "FUN_80286ca0",
+        "addr": 2150132896,
+        "size": 196,
+        "score": 0.8857142857142858
+      },
+      {
+        "src": "__CARDUnlock",
+        "tgt": "FUN_80286d64",
+        "addr": 2150133092,
+        "size": 2904,
+        "score": 0.993
+      },
+      {
+        "src": "InitCallback",
+        "tgt": "FUN_802878bc",
+        "addr": 2150135996,
+        "size": 112,
+        "score": 1.0
+      },
+      {
+        "src": "DoneCallback",
+        "tgt": "FUN_8028792c",
+        "addr": 2150136108,
+        "size": 804,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "card/CARDRdwr.c",
+    "min_addr": 2150136912,
+    "max_end": 2150137232,
+    "covered_bytes": 320,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "BlockReadCallback",
+        "tgt": "FUN_80287c50",
+        "addr": 2150136912,
+        "size": 220,
+        "score": 1.0
+      },
+      {
+        "src": "__CARDRead",
+        "tgt": "FUN_80287d2c",
+        "addr": 2150137132,
+        "size": 100,
+        "score": 1.0
+      },
+      {
+        "src": "BlockWriteCallback",
+        "tgt": "FUN_80287c50",
+        "addr": 2150136912,
+        "size": 220,
+        "score": 0.8575835305182168
+      },
+      {
+        "src": "__CARDWrite",
+        "tgt": "FUN_80287d2c",
+        "addr": 2150137132,
+        "size": 100,
+        "score": 0.9127828054298642
+      }
+    ]
+  },
+  {
+    "file": "card/CARDWrite.c",
+    "min_addr": 2150129584,
+    "max_end": 2150130404,
+    "covered_bytes": 820,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "WriteCallback",
+        "tgt": "FUN_80285fb0",
+        "addr": 2150129584,
+        "size": 368,
+        "score": 0.9923913043478261
+      },
+      {
+        "src": "EraseCallback",
+        "tgt": "FUN_80286120",
+        "addr": 2150129952,
+        "size": 176,
+        "score": 0.9840909090909091
+      },
+      {
+        "src": "CARDWriteAsync",
+        "tgt": "FUN_802861d0",
+        "addr": 2150130128,
+        "size": 276,
+        "score": 0.9898550724637681
+      }
+    ]
+  },
+  {
+    "file": "card/CARDCreate.c",
+    "min_addr": 2150127524,
+    "max_end": 2150128372,
+    "covered_bytes": 848,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "CreateCallbackFat",
+        "tgt": "FUN_802857a4",
+        "addr": 2150127524,
+        "size": 304,
+        "score": 1.0
+      },
+      {
+        "src": "CARDCreateAsync",
+        "tgt": "FUN_802858d4",
+        "addr": 2150127828,
+        "size": 544,
+        "score": 0.9948529411764706
+      }
+    ]
+  },
+  {
+    "file": "card/CARDStat.c",
+    "min_addr": 2150130984,
+    "max_end": 2150132136,
+    "covered_bytes": 1152,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "UpdateIconOffsets",
+        "tgt": "FUN_80286528",
+        "addr": 2150130984,
+        "size": 504,
+        "score": 0.9
+      },
+      {
+        "src": "CARDGetStatus",
+        "tgt": "FUN_80286720",
+        "addr": 2150131488,
+        "size": 276,
+        "score": 1.0
+      },
+      {
+        "src": "CARDSetStatusAsync",
+        "tgt": "FUN_80286834",
+        "addr": 2150131764,
+        "size": 372,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "file": "card/CARDNet.c",
+    "min_addr": 2150114788,
+    "max_end": 2150114972,
+    "covered_bytes": 184,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "CARDGetSerialNo",
+        "tgt": "FUN_802825e4",
+        "addr": 2150114788,
+        "size": 184,
+        "score": 0.5290687097207304
+      }
+    ]
+  },
+  {
+    "file": "gx/GXTev.c",
+    "min_addr": 2150162488,
+    "max_end": 2150164380,
+    "covered_bytes": 1788,
+    "coverage_ratio": 0.945031712473573,
+    "functions": [
+      {
+        "src": "GXSetTevOp",
+        "tgt": "FUN_8028e038",
+        "addr": 2150162488,
+        "size": 140,
+        "score": 0.88
+      },
+      {
+        "src": "GXSetTevColorIn",
+        "tgt": "FUN_8028e0c4",
+        "addr": 2150162628,
+        "size": 68,
+        "score": 0.8588235294117648
+      },
+      {
+        "src": "GXSetTevAlphaIn",
+        "tgt": "FUN_8028e108",
+        "addr": 2150162696,
+        "size": 68,
+        "score": 0.8588235294117648
+      },
+      {
+        "src": "GXSetTevColorOp",
+        "tgt": "FUN_8028e14c",
+        "addr": 2150162764,
+        "size": 104,
+        "score": 0.8461538461538463
+      },
+      {
+        "src": "GXSetTevAlphaOp",
+        "tgt": "FUN_8028e14c",
+        "addr": 2150162764,
+        "size": 104,
+        "score": 0.8461538461538463
+      },
+      {
+        "src": "GXSetTevColor",
+        "tgt": "FUN_8028e21c",
+        "addr": 2150162972,
+        "size": 124,
+        "score": 0.48772037260652057
+      },
+      {
+        "src": "GXSetTevColorS10",
+        "tgt": "FUN_8028e298",
+        "addr": 2150163096,
+        "size": 124,
+        "score": 0.48032258064516126
+      },
+      {
+        "src": "GXSetTevKColor",
+        "tgt": "FUN_8028e314",
+        "addr": 2150163220,
+        "size": 116,
+        "score": 0.42374317891559266
+      },
+      {
+        "src": "GXSetTevKColorSel",
+        "tgt": "FUN_8028e388",
+        "addr": 2150163336,
+        "size": 92,
+        "score": 0.8391304347826087
+      },
+      {
+        "src": "GXSetTevKAlphaSel",
+        "tgt": "FUN_8028e3e4",
+        "addr": 2150163428,
+        "size": 92,
+        "score": 0.8391304347826087
+      },
+      {
+        "src": "GXSetTevSwapMode",
+        "tgt": "FUN_8028e440",
+        "addr": 2150163520,
+        "size": 72,
+        "score": 0.8611111111111112
+      },
+      {
+        "src": "GXSetTevSwapModeTable",
+        "tgt": "FUN_8028e488",
+        "addr": 2150163592,
+        "size": 128,
+        "score": 0.878125
+      },
+      {
+        "src": "GXSetAlphaCompare",
+        "tgt": "FUN_8028e508",
+        "addr": 2150163720,
+        "size": 68,
+        "score": 0.8588235294117648
+      },
+      {
+        "src": "GXSetZTexture",
+        "tgt": "FUN_8028e54c",
+        "addr": 2150163788,
+        "size": 140,
+        "score": 0.88
+      },
+      {
+        "src": "GXSetTevOrder",
+        "tgt": "FUN_8028e5d8",
+        "addr": 2150163928,
+        "size": 412,
+        "score": 0.8728155339805825
+      },
+      {
+        "src": "GXSetNumTevStages",
+        "tgt": "FUN_8028e774",
+        "addr": 2150164340,
+        "size": 40,
+        "score": 0.8300000000000001
+      }
+    ]
+  },
+  {
+    "file": "gx/GXPixel.c",
+    "min_addr": 2150164380,
+    "max_end": 2150165988,
+    "covered_bytes": 1608,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "GXSetFog",
+        "tgt": "FUN_8028e79c",
+        "addr": 2150164380,
+        "size": 548,
+        "score": 0.8192948629665335
+      },
+      {
+        "src": "GXSetFogRangeAdj",
+        "tgt": "FUN_8028e9c0",
+        "addr": 2150164928,
+        "size": 292,
+        "score": 0.8904109589041096
+      },
+      {
+        "src": "GXSetBlendMode",
+        "tgt": "FUN_8028eae4",
+        "addr": 2150165220,
+        "size": 84,
+        "score": 0.8666666666666667
+      },
+      {
+        "src": "GXSetColorUpdate",
+        "tgt": "FUN_8028eb38",
+        "addr": 2150165304,
+        "size": 44,
+        "score": 0.8363636363636364
+      },
+      {
+        "src": "GXSetAlphaUpdate",
+        "tgt": "FUN_8028eb64",
+        "addr": 2150165348,
+        "size": 44,
+        "score": 0.8363636363636364
+      },
+      {
+        "src": "GXSetZMode",
+        "tgt": "FUN_8028eb90",
+        "addr": 2150165392,
+        "size": 52,
+        "score": 0.8461538461538463
+      },
+      {
+        "src": "GXSetZCompLoc",
+        "tgt": "FUN_8028ebc4",
+        "addr": 2150165444,
+        "size": 52,
+        "score": 0.8461538461538463
+      },
+      {
+        "src": "GXSetPixelFmt",
+        "tgt": "FUN_8028ebf8",
+        "addr": 2150165496,
+        "size": 212,
+        "score": 0.8471698113207548
+      },
+      {
+        "src": "GXSetDither",
+        "tgt": "FUN_8028eccc",
+        "addr": 2150165708,
+        "size": 44,
+        "score": 0.8363636363636364
+      },
+      {
+        "src": "GXSetDstAlpha",
+        "tgt": "FUN_8028ecf8",
+        "addr": 2150165752,
+        "size": 60,
+        "score": 0.8533333333333334
+      },
+      {
+        "src": "GXSetFieldMask",
+        "tgt": "FUN_8028ed34",
+        "addr": 2150165812,
+        "size": 56,
+        "score": 0.8500000000000001
+      },
+      {
+        "src": "GXSetFieldMode",
+        "tgt": "FUN_8028ed6c",
+        "addr": 2150165868,
+        "size": 120,
+        "score": 0.9766666666666667
+      }
+    ]
+  },
+  {
+    "file": "exi/EXIUart.c",
+    "min_addr": 2148663640,
+    "max_end": 2148665132,
+    "covered_bytes": 1492,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "ProbeBarnacle",
+        "tgt": "FUN_80120158",
+        "addr": 2148663640,
+        "size": 396,
+        "score": 1.0
+      },
+      {
+        "src": "__OSEnableBarnacle",
+        "tgt": "FUN_801202e4",
+        "addr": 2148664036,
+        "size": 444,
+        "score": 0.9747747747747748
+      },
+      {
+        "src": "InitializeUART",
+        "tgt": "FUN_801204a0",
+        "addr": 2148664480,
+        "size": 112,
+        "score": 0.875
+      },
+      {
+        "src": "WriteUARTN",
+        "tgt": "FUN_80120510",
+        "addr": 2148664592,
+        "size": 540,
+        "score": 0.8575339016045794
+      }
+    ]
+  },
+  {
+    "file": "thp/THPDec.c",
+    "min_addr": 2150039652,
+    "max_end": 2150069708,
+    "covered_bytes": 30056,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "THPVideoDecode",
+        "tgt": "FUN_80270064",
+        "addr": 2150039652,
+        "size": 580,
+        "score": 0.9420689655172414
+      },
+      {
+        "src": "__THPSetupBuffers",
+        "tgt": "FUN_802702a8",
+        "addr": 2150040232,
+        "size": 68,
+        "score": 0.8588235294117648
+      },
+      {
+        "src": "__THPReadFrameHeader",
+        "tgt": "FUN_802702ec",
+        "addr": 2150040300,
+        "size": 316,
+        "score": 0.8025316455696203
+      },
+      {
+        "src": "__THPReadScaneHeader",
+        "tgt": "FUN_80270428",
+        "addr": 2150040616,
+        "size": 284,
+        "score": 0.7816901408450705
+      },
+      {
+        "src": "__THPReadQuantizationTable",
+        "tgt": "FUN_80270544",
+        "addr": 2150040900,
+        "size": 956,
+        "score": 0.7037656903765691
+      },
+      {
+        "src": "__THPReadHuffmanTableSpecification",
+        "tgt": "FUN_80270900",
+        "addr": 2150041856,
+        "size": 480,
+        "score": 0.895
+      },
+      {
+        "src": "__THPHuffGenerateSizeTable",
+        "tgt": "FUN_80270ae0",
+        "addr": 2150042336,
+        "size": 240,
+        "score": 0.7716666666666667
+      },
+      {
+        "src": "__THPHuffGenerateCodeTable",
+        "tgt": "FUN_80270bd0",
+        "addr": 2150042576,
+        "size": 104,
+        "score": 0.8461538461538463
+      },
+      {
+        "src": "__THPHuffGenerateDecoderTables",
+        "tgt": "FUN_80270c38",
+        "addr": 2150042680,
+        "size": 444,
+        "score": 0.7927927927927928
+      },
+      {
+        "src": "__THPRestartDefinition",
+        "tgt": "FUN_80270df4",
+        "addr": 2150043124,
+        "size": 84,
+        "score": 0.7333333333333333
+      },
+      {
+        "src": "__THPPrepBitStream",
+        "tgt": "FUN_80270e48",
+        "addr": 2150043208,
+        "size": 588,
+        "score": 0.819047619047619
+      },
+      {
+        "src": "__THPDecompressYUV",
+        "tgt": "FUN_80271094",
+        "addr": 2150043796,
+        "size": 268,
+        "score": 0.8955223880597015
+      },
+      {
+        "src": "__THPDecompressiMCURow512x448",
+        "tgt": "FUN_802711a0",
+        "addr": 2150044064,
+        "size": 6792,
+        "score": 0.7925925925925926
+      },
+      {
+        "src": "__THPDecompressiMCURow640x480",
+        "tgt": "FUN_80272c28",
+        "addr": 2150050856,
+        "size": 6796,
+        "score": 0.7925925925925926
+      },
+      {
+        "src": "__THPDecompressiMCURowNxN",
+        "tgt": "FUN_802746b4",
+        "addr": 2150057652,
+        "size": 6828,
+        "score": 0.7948275862068965
+      },
+      {
+        "src": "__THPHuffDecodeDCTCompY",
+        "tgt": "FUN_80276160",
+        "addr": 2150064480,
+        "size": 1660,
+        "score": 0.8982500000000001
+      },
+      {
+        "src": "__THPHuffDecodeDCTCompU",
+        "tgt": "FUN_802767dc",
+        "addr": 2150066140,
+        "size": 1704,
+        "score": 0.8982500000000001
+      },
+      {
+        "src": "__THPHuffDecodeDCTCompV",
+        "tgt": "FUN_80276e84",
+        "addr": 2150067844,
+        "size": 1704,
+        "score": 0.8982500000000001
+      },
+      {
+        "src": "THPInit",
+        "tgt": "FUN_8027752c",
+        "addr": 2150069548,
+        "size": 160,
+        "score": 0.965
+      }
+    ]
+  },
+  {
+    "file": "thp/THPAudio.c",
+    "min_addr": 2150069708,
+    "max_end": 2150071036,
+    "covered_bytes": 1328,
+    "coverage_ratio": 1.0,
+    "functions": [
+      {
+        "src": "THPAudioDecode",
+        "tgt": "FUN_802775cc",
+        "addr": 2150069708,
+        "size": 1124,
+        "score": 1.0
+      },
+      {
+        "src": "__THPAudioGetNewSample",
+        "tgt": "FUN_80277a30",
+        "addr": 2150070832,
+        "size": 144,
+        "score": 0.9
+      },
+      {
+        "src": "__THPAudioInitialize",
+        "tgt": "FUN_80277ac0",
+        "addr": 2150070976,
+        "size": 60,
+        "score": 0.9
+      }
+    ]
+  }
+]
